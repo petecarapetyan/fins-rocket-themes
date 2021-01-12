@@ -1,0 +1,15 @@
+{
+  "name": "th-14-alphabet",
+  "version": "1.0.0",
+  "description": "Using the abc.xyz site as a visual archetype",
+  "main": "index.js",
+  "scripts": {
+    "start": "web-dev-server --open src/ --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@web/dev-server": "^0.1.2"
+  }
+}

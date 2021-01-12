@@ -1,0 +1,56 @@
+.container {
+  display: grid;
+  grid-gap: 1px;
+  grid-template-columns: 168px 1fr;
+  grid-template-rows: 40px 40px 150px minmax(350px, 1fr) 100px;
+  grid-template-areas:
+    "content-side  head-main"
+    "content-side  head2-main"
+    "content-side  head3-main"
+    "content-side  content2-main"
+    "content-side  foot-main"
+}
+
+
+.ga-content-side {
+  grid-area: content-side;
+}
+
+.ga-head-main {
+  grid-area: head-main;
+}
+
+.ga-head2-main {
+  grid-area: head2-main;
+}
+
+.ga-head3-main {
+  grid-area: head3-main;
+}
+
+.ga-content1-main {
+  grid-area: content2-main;
+}
+
+.ga-foot-main {
+  grid-area: foot-main;
+}
+
+
+
+@media (max-width: 1025px) {
+  .container {
+    display: grid;
+    grid-template-columns: minmax(692px, 1025px);
+    grid-template-rows: 56px minmax(350px, 1fr) 100px;
+    grid-template-areas:
+      "head-main"
+      "content-main"
+      "foot-main";
+    /* next 4 lines prevents stray grid items from being written WTF???????? */
+    grid-auto-rows: 0; 
+    overflow-y: hidden;
+    grid-auto-columns: 0;
+    overflow-x: hidden;
+  }
+}
