@@ -1,12 +1,11 @@
 {
-  "name": "jukelox",
+  "name": "fixme",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "rocket start",
-    "build": "rocket build",
-    "deploy": "npm run build && firebase deploy"
+    "build": "rocket build"
   },
   "keywords": [],
   "author": "",

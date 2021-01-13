@@ -4,7 +4,7 @@
   "description": "for viewing the grid areas only",
   "main": "index.js",
   "scripts": {
-    "start": "web-dev-server --open src/areas/ --watch"
+    "start": "web-dev-server --open src/home-areas/ --watch"
   },
   "keywords": [],
   "author": "",
