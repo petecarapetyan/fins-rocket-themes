@@ -1,13 +1,13 @@
 ---
-title: Walktown
+title: OMG
 layout: home.njk
-slogan: A fantasy place, where you can live fine without a car
+slogan: OMG is the best ever in the history of the whole world
 callToActionItems:
   - text: Follow Guides
     href: /guides/
   - text: Browse Docs
     href: /docs/
-reasonHeader: Why Not Drive?
+reasonHeader: OMG? Why not?
 reasons:
   - header: Small
     text: No overblown tools or frontend frameworks, add JavaScript and/or Web Components only on pages where needed.
