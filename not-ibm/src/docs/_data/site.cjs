@@ -2,8 +2,8 @@ module.exports = function () {
   return {
     dir: 'ltr',
     lang: 'en',
-    name: 'Walktown',
-    description: 'Walktown is a fantasy place',
+    name: 'OMG',
+    description: 'OMG is the best ever',
     socialLinks: [
       {
         name: 'GitHub',
