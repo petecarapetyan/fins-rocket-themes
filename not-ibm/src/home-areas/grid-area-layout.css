@@ -65,7 +65,7 @@ body[layout='home'] {
 .ga-content5-l {
   grid-area: content5-l;
 }
-.ga-content5-main {
+.content-grid-area {
   grid-area: content5-main;
 }
 .ga-content5-r {
