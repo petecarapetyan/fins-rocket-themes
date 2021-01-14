@@ -1,4 +1,24 @@
-.ga-show {
+.header-grid-area {
+  background-color: grey;
+}
+.sidebar-grid-area {
+  background-color: salmon;
+}
+.content-grid-area {
+  background-color: white;
+}
+
+.rocket-content {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border: solid black 3px;
+  border-radius: 3px;
+  font-size: 16px;
+  padding: 5px;
+}
+
+.theme-able {
   display: grid;
   justify-content: center;
   align-items: center;
@@ -9,7 +29,7 @@
   padding: 5px;
 }
 
-.ga-show p {
+.theme-able p {
   margin: 0 0 5px 0;
 }
 
