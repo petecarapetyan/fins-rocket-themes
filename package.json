@@ -1,0 +1,17 @@
+{
+  "name": "rocket-themes",
+  "version": "1.0.0",
+  "description": "for viewing the grid areas",
+  "main": "index.js",
+  "scripts": {
+    "any-with-sidebar": "web-dev-server --open any-with-sidebar/src/with-sidebar-areas/ --watch",
+    "not-ibm": "web-dev-server --open not-ibm/src/home-areas/ --watch",
+    "not-five38": "web-dev-server --open not-five38/src/home-areas/ --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@web/dev-server": "^0.1.2"
+  }
+}
