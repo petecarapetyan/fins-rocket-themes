@@ -13,7 +13,7 @@ body[layout='home'] {
 .ga-head-main {
   grid-area: head-main;
 }
-.ga-head2-main {
+.header-grid-area {
   grid-area: head2-main;
 }
 .ga-head3-main {
@@ -23,7 +23,7 @@ body[layout='home'] {
 .ga-content-l {
   grid-area: content-l;
 }
-.ga-content-main {
+.content-grid-area {
   grid-area: content-main;
 }
 .ga-content-r {

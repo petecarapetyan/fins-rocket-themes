@@ -12,7 +12,7 @@ body[layout='home'] {
 }
 
 
-.ga-content-side {
+.sidebar-grid-area {
   grid-area: content-side;
 }
 
@@ -20,7 +20,7 @@ body[layout='home'] {
   grid-area: head-main;
 }
 
-.ga-head2-main {
+.header-grid-area {
   grid-area: head2-main;
 }
 
@@ -28,7 +28,7 @@ body[layout='home'] {
   grid-area: head3-main;
 }
 
-.ga-content1-main {
+.content-grid-area {
   grid-area: content2-main;
 }
 
