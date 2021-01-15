@@ -65,22 +65,3 @@ body[layout='home'] {
 .ga-foot-main {
   grid-area: foot-main;
 }
-
-
-
-@media (max-width: 1025px) {
-  .container {
-    display: grid;
-    grid-template-columns: minmax(692px, 1025px);
-    grid-template-rows: 56px minmax(350px, 1fr) 100px;
-    grid-template-areas:
-      "head-main"
-      "content-main"
-      "foot-main";
-    /* next 4 lines prevents stray grid items from being written WTF???????? */
-    grid-auto-rows: 0; 
-    overflow-y: hidden;
-    grid-auto-columns: 0;
-    overflow-x: hidden;
-  }
-}

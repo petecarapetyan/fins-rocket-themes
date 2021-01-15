@@ -1,7 +1,8 @@
 body[layout='home'] {
   display: grid;
-  grid-template-columns: 1fr minmax(800px, 1500px) 1fr;
-  grid-template-rows: 56px minmax(350px, 1fr) 50px minmax(300px, 1fr) 50px minmax(300px, 1fr) 100px;
+  grid-gap: 1px;
+  grid-template-columns: 1fr minmax(692px, 950px) 1fr;
+  grid-template-rows: 56px repeat(6, minmax(350px, 1fr)) 100px;
   grid-template-areas:
     "head-l       head-main       head-r"
     "content-l    content-main    content-r"
@@ -9,13 +10,14 @@ body[layout='home'] {
     "content3-l   content3-main   content3-r"
     "content4-l   content4-main   content4-r"
     "content5-l   content5-main   content5-r"
+    "content6-l   content6-main   content6-r"
     "foot-l       foot-main       foot-r"
 }
 
 .ga-head-l {
   grid-area: head-l;
 }
-.header-grid-area {
+.ga-head-main {
   grid-area: head-main;
 }
 .ga-head-r {
@@ -25,7 +27,7 @@ body[layout='home'] {
 .ga-content-l {
   grid-area: content-l;
 }
-.content-grid-area {
+.ga-content-main {
   grid-area: content-main;
 }
 .ga-content-r {
@@ -65,11 +67,21 @@ body[layout='home'] {
 .ga-content5-l {
   grid-area: content5-l;
 }
-.content-grid-area {
+.ga-content5-main {
   grid-area: content5-main;
 }
 .ga-content5-r {
   grid-area: content5-r;
+}
+
+.ga-content6-l {
+  grid-area: content6-l;
+}
+.ga-content6-main {
+  grid-area: content6-main;
+}
+.ga-content6-r {
+  grid-area: content6-r;
 }
 
 .ga-foot-l {

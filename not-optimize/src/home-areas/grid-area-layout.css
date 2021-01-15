@@ -1,14 +1,13 @@
 body[layout='home'] {
   display: grid;
-  grid-template-columns: 1fr minmax(800px, 1500px) 1fr;
-  grid-template-rows: 56px minmax(350px, 1fr) 50px minmax(300px, 1fr) 50px minmax(300px, 1fr) 100px;
+  grid-gap: 1px;
+  grid-template-columns: 1fr minmax(692px, 950px) 1fr;
+  grid-template-rows: repeat(4, minmax(350px, 1fr)) 100px;
   grid-template-areas:
     "head-l       head-main       head-r"
     "content-l    content-main    content-r"
     "content2-l   content2-main   content2-r"
     "content3-l   content3-main   content3-r"
-    "content4-l   content4-main   content4-r"
-    "content5-l   content5-main   content5-r"
     "foot-l       foot-main       foot-r"
 }
 
@@ -50,26 +49,6 @@ body[layout='home'] {
 }
 .ga-content3-r {
   grid-area: content3-r;
-}
-
-.ga-content4-l {
-  grid-area: content4-l;
-}
-.ga-content4-main {
-  grid-area: content4-main;
-}
-.ga-content4-r {
-  grid-area: content4-r;
-}
-
-.ga-content5-l {
-  grid-area: content5-l;
-}
-.content-grid-area {
-  grid-area: content5-main;
-}
-.ga-content5-r {
-  grid-area: content5-r;
 }
 
 .ga-foot-l {
