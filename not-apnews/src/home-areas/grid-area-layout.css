@@ -1,4 +1,4 @@
-.container {
+body[layout='home'] {
   display: grid;
   grid-gap: 1px;
   grid-template-columns: 1fr minmax(692px, 950px) 300px 1fr;
