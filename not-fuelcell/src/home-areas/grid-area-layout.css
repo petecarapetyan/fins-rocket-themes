@@ -23,15 +23,15 @@ body[layout='home'] {
   grid-area: content-l;
 }
 .content-grid-area {
-  grid-area: content-main;
+  grid-area: content2-main;
 }
 .ga-content-r {
   grid-area: content-r;
 }
 
 
-.ga-content2-main {
-  grid-area: content2-main;
+.ga-content-main {
+  grid-area: content-main;
 }
 .sidebar-grid-area {
   grid-area: content2-side;
