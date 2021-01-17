@@ -1,7 +1,7 @@
 ---
-title: not-nyt
+title: not-reddit
 layout: home.njk
-slogan: A rocket theme inspired by nyt
+slogan: A rocket theme inspired by reddit
 callToActionItems:
   - text: Follow Guides
     href: /guides/
