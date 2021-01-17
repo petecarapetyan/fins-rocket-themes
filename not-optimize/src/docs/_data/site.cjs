@@ -2,8 +2,8 @@ module.exports = function () {
   return {
     dir: 'ltr',
     lang: 'en',
-    name: 'not-nyt',
-    description: 'not-nyt is a prelimary starter theme for rocket',
+    name: 'not-optimize',
+    description: 'not-optimize is a prelimary starter theme for rocket',
     socialLinks: [
       {
         name: 'GitHub',

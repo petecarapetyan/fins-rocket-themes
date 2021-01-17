@@ -2,7 +2,7 @@ body[layout='home'] {
   display: grid;
   grid-gap: 1px;
   grid-template-columns: 1fr minmax(692px, 950px) 1fr;
-  grid-template-rows: repeat(4, minmax(350px, 1fr)) 100px;
+  grid-template-rows: repeat(4, minmax(350px, auto)) auto;
   grid-template-areas:
     "head-l       head-main       head-r"
     "content-l    content-main    content-r"
@@ -59,4 +59,17 @@ body[layout='home'] {
 }
 .ga-foot-r {
   grid-area: foot-r;
+}
+body[layout='sidebar'] {
+  grid-auto-rows: 0; 
+  grid-auto-columns: 0;
+  overflow-x: hidden;
+  display: grid;
+  grid-gap: 1px;
+  grid-template-columns: 1fr 300px minmax(665px, 830px) 1fr;
+  grid-template-rows: 81px minmax(350px,auto) auto;
+  grid-template-areas:
+    "content-l  head-main     head-main     content-r"
+    "content-l  content-side  content-main  content-r"
+    "content-l  foot-main     foot-main     content-r"
 }

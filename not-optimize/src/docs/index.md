@@ -1,7 +1,7 @@
 ---
-title: not-nyt
+title: not-optimize
 layout: home.njk
-slogan: A rocket theme inspired by nyt
+slogan: A rocket theme inspired by optimize
 callToActionItems:
   - text: Follow Guides
     href: /guides/
