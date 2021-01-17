@@ -9,28 +9,25 @@
   </head>
 
   <body layout="home">
-      <div class="header-grid-area">
-      {% block header %}
-        {% include 'partials/header.njk' %}
-      {% endblock header%}
+      <div class="rocket-content header-grid-area">
+        {% block header %}
+          {% include 'partials/header.njk' %}
+        {% endblock header%}
       </div>
 
-      <div id="left-panel" class="ga-content-main">
-        <p>
-          <img src="{{ '_assets/_static/images/khara-woods-OGV99Jhhvro-unsplash_.jpg' | asset | url }}" role="presentation"/>
-        </p>
+      <div class="theme-able ga-content-main">
+        <p>Lorem ipsum d</p>
+      </div>
+
+      <div class="theme-able ga-content2-side">
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore,
           sed.
         </p>
       </div>
 
-      <div id="right-panel" class="ga-content2-side">
-      </div>
-
-      <div class="ga-foot-main">
+      <div class="theme-able   ga-foot-main">
         <p>Footer</p>
       </div>
   </body>
-
 </html>

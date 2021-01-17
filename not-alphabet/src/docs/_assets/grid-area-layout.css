@@ -2,27 +2,12 @@ body[layout='home'] {
   display: grid;
   grid-gap: 1px;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 65px 780px 65px;
+  grid-template-rows: 65px 780px auto;
   grid-template-areas:
     "head-main     head-main"
     "content-main  content2-side"
     "foot-main     foot-main"
 }
-
-body[layout='with-sidebar'] {
-  grid-auto-rows: 0; 
-  grid-auto-columns: 0;
-  overflow-x: hidden;
-  display: grid;
-  grid-gap: 1px;
-  grid-template-columns: 1fr 300px minmax(665px, 830px) 1fr;
-  grid-template-rows: 81px minmax(350px, auto) auto;
-  grid-template-areas:
-    "content-l  head-main     head-main     content-r"
-    "content-l  content-main  content-side  content-r"
-    "content-l  foot-main     foot-main     content-r"
-}
-
 
 .header-grid-area {
   grid-area: head-main;
@@ -36,28 +21,32 @@ body[layout='with-sidebar'] {
 .ga-foot-main {
   grid-area: foot-main;
 }
-
-.ga-head-main {
-  grid-area: head-main;
-}
-
-.ga-head2-main {
-  grid-area: head2-main;
-}
-
-.ga-head3-main {
-  grid-area: head3-main;
-}
-
 .ga-content-l {
   grid-area: content-l;
 }
 .ga-content-side {
   grid-area: content-side;
 }
-.ga-content-side {
+.content-grid-area {
+  grid-area: content-main;
+}
+.sidebar-grid-area {
   grid-area: content-side;
 }
 .ga-content-r {
   grid-area: content-r;
+}
+
+body[layout='sidebar'] {
+  grid-auto-rows: 0;
+  grid-auto-columns: 0;
+  overflow-x: hidden;
+  display: grid;
+  grid-gap: 1px;
+  grid-template-columns: 1fr 300px minmax(665px, 830px) 1fr;
+  grid-template-rows: 81px minmax(350px,auto) auto;
+  grid-template-areas:
+    "content-l  head-main     head-main     content-r"
+    "content-l  content-side  content-main  content-r"
+    "content-l  foot-main     foot-main     content-r"
 }
