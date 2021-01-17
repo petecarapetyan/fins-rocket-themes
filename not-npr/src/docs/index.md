@@ -1,7 +1,7 @@
 ---
 title: not-npr
 layout: home.njk
-slogan: A rocket theme designed to vaguely appear as npr
+slogan: A rocket theme inspired by npr
 callToActionItems:
   - text: Follow Guides
     href: /guides/
@@ -20,6 +20,6 @@ reasons:
   - header: Powerful Default Template
     text: Provide content and you are ready to go.
   - header: Ready for Production
-    text: Optimized for a smaller build size, faster dev compilation and dozens of other improvements.
+    text: wikipediad for a smaller build size, faster dev compilation and dozens of other improvements.
 ---
 
