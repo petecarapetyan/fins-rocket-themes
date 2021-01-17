@@ -2,8 +2,8 @@ module.exports = function () {
   return {
     dir: 'ltr',
     lang: 'en',
-    name: 'not-axios',
-    description: 'not-axios is a prelimary starter theme for rocket',
+    name: 'not-wired',
+    description: 'not-wired is a prelimary starter theme for rocket',
     socialLinks: [
       {
         name: 'GitHub',
