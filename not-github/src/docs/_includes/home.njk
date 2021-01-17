@@ -81,7 +81,11 @@
     <div class="theme-able ga-content-r"></div>
 
     <div class="theme-able ga-foot-main">
-      <p>Footer</p>
+        {% block footer %}
+          {% include 'partials/footer.njk' %}
+          {% include 'partials/pageJs.njk' %}
+          {% include 'partials/mobileNavigationJs.njk' %}
+        {% endblock footer %}
     </div>
   </body>
 
