@@ -9,19 +9,25 @@
   </head>
 
   <body layout="home">
-
-
-    <div class="header-grid-area">
-      {% block header %}
-        {% include 'partials/header.njk' %}
-      {% endblock header%}
+    <div class="rocket-content header-grid-area">
+        {% block header %}
+          {% include 'partials/header.njk' %}
+        {% endblock header%}
     </div>
-    <div class="ga-head2-main">hi</div>
-    <div class="ga-head3-main">ho</div>
-    <div class="ga-head3-main">he</div>
 
-    <div class="content-grid-area">
-      <div class="story-panel-margins">
+    <div class="theme-able ga-head2-main">
+      <p>head2-main</p>
+    </div>
+
+    <div class="theme-able ga-head3-main">
+      <p>head3-main</p>
+    </div>
+
+    <div class="theme-able ga-head4-main">
+      <p>head4-main</p>
+    </div>
+
+    <div class="rocket-content content-grid-area">
       {% block main %}
         <main class="markdown-body">
           <img class="page-logo" src="{{ '_assets/logo.svg' | asset | url }}" alt="{{ site.title }} Logo"/>
@@ -49,39 +55,36 @@
         </main>
       {% endblock main %}
     </div>
-    </div>
-    <div class="sidebar-grid-area">
-      <h4> Navigation stuff here</h4>
-      <hr>
-      {% block sidebar %}
-        <rocket-drawer id="sidebar">
-          <nav slot="content" id="sidebar-nav">
-            {% include 'partials/logoLink.njk' %}
-            <rocket-navigation>
-              <ul>
-                {%- for entry in collections.header %}
-                  <li>
-                    <a href="{{ entry.url | url }}" class="
-                      {% if entry.url == page.url %} current {% endif %}
-                      {% if (page.url.search(entry.url) !== -1) and (page.url !== '/') %} active {% endif %}
-                    ">{{ entry.data.eleventyNavigation.key }}</a>
-                  </li>
-                {%- endfor %}
-              </ul>
-              {% include 'partials/mobile-sidebar-bottom.njk' %}
-            </rocket-navigation>
-          </nav>
-        </rocket-drawer>
-      {% endblock sidebar %}
+    <div class="rocket-content sidebar-grid-area">
+        <p>sidebar not showing due to layout.css?</p>
+        {% block sidebar %}
+          <rocket-drawer id="sidebar">
+            <nav slot="content" id="sidebar-nav">
+              {% include 'partials/logoLink.njk' %}
+              <rocket-navigation>
+                <ul>
+                  {%- for entry in collections.header %}
+                    <li>
+                      <a href="{{ entry.url | url }}" class="
+                        {% if entry.url == page.url %} current {% endif %}
+                        {% if (page.url.search(entry.url) !== -1) and (page.url !== '/') %} active {% endif %}
+                      ">{{ entry.data.eleventyNavigation.key }}</a>
+                    </li>
+                  {%- endfor %}
+                </ul>
+                {% include 'partials/mobile-sidebar-bottom.njk' %}
+              </rocket-navigation>
+            </nav>
+          </rocket-drawer>
+        {% endblock sidebar %}
     </div>
 
-    <div class="ga-foot-main footerback">
-      {% block footer %}
-        {% include 'partials/footer.njk' %}
-        {% include 'partials/pageJs.njk' %}
-        {% include 'partials/mobileNavigationJs.njk' %}
-      {% endblock footer %}
+    <div class="theme-able ga-foot-main">
+        {% block footer %}
+          {% include 'partials/footer.njk' %}
+          {% include 'partials/pageJs.njk' %}
+          {% include 'partials/mobileNavigationJs.njk' %}
+        {% endblock footer %}
     </div>
   </body>
-
 </html>

@@ -20,6 +20,6 @@ reasons:
   - header: Powerful Default Template
     text: Provide content and you are ready to go.
   - header: Ready for Production
-    text: Optimized for a smaller build size, faster dev compilation and dozens of other improvements.
+    text: wikipediad for a smaller build size, faster dev compilation and dozens of other improvements.
 ---
 
