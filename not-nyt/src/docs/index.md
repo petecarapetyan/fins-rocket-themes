@@ -1,7 +1,7 @@
 ---
-title: not-npr
+title: not-nyt
 layout: home.njk
-slogan: A rocket theme inspired by npr
+slogan: A rocket theme inspired by nyt
 callToActionItems:
   - text: Follow Guides
     href: /guides/
