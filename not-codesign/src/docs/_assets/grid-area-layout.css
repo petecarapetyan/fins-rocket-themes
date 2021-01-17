@@ -2,7 +2,7 @@ body[layout='home'] {
   display: grid;
   grid-gap: 1px;
   grid-template-columns: 1fr minmax(692px, 950px) 1fr;
-  grid-template-rows: 56px repeat(6, minmax(350px, 1fr)) 100px;
+  grid-template-rows: 56px repeat(6, minmax(350px, 1fr)) auto;
   grid-template-areas:
     "head-l       head-main       head-r"
     "content-l    content-main    content-r"
@@ -103,7 +103,7 @@ body[layout='sidebar'] {
   display: grid;
   grid-gap: 1px;
   grid-template-columns: 1fr 300px minmax(665px, 830px) 1fr;
-  grid-template-rows: 81px minmax(350px,auto) 100px;
+  grid-template-rows: 81px minmax(350px,auto) auto;
   grid-template-areas:
     "content-l  head-main     head-main     content-r"
     "content-l  content-side  content2-main  content-r"

@@ -48,7 +48,7 @@ body[layout='sidebar'] {
   display: grid;
   grid-gap: 1px;
   grid-template-columns: 1fr 300px minmax(665px, 830px) 1fr;
-  grid-template-rows: 81px minmax(350px,auto) 100px;
+  grid-template-rows: 81px minmax(350px,auto) auto;
   grid-template-areas:
     "content-l  head-main       head-main       content-r"
     "content-l  content2-side   content2-main   content-r"

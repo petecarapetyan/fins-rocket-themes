@@ -2,7 +2,7 @@ body[layout='home'] {
   display: grid;
   grid-gap: 1px;
   grid-template-columns: 1fr 270px;
-  grid-template-rows: 40px 30px 30px 100px minmax(350px, 1fr) 100px;
+  grid-template-rows: 40px 30px 30px 100px minmax(350px, 1fr) auto;
   grid-template-areas:
     "head-main     head-main"
     "head2-main    head2-main"
