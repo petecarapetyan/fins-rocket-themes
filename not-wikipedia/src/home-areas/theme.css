@@ -25,12 +25,8 @@
   border: 5px solid rgba(0, 0, 0, 0.03);
   border-radius: 3px;
   font-size: 20px;
+  background-color: #0099FF;
   padding: 5px;
-  background: url(/_assets/_static/images/incomplete_wallpaper.svg) center center fixed; 
-  -webkit-background-size: 200pc;
-  -moz-background-size: 200pc;
-  -o-background-size: 200px;
-  background-size: 200px;
 }
 
 .theme-able p {
