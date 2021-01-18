@@ -12,6 +12,12 @@
   background-color: white;
 }
 
+.ga-content-main {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}
+
 .rocket-content {
   display: grid;
   justify-content: center;
