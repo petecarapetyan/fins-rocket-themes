@@ -4,6 +4,11 @@
   "description": "for viewing the grid areas",
   "main": "index.js",
   "scripts": {
+    "a": "web-dev-server --open a-not-five38/src/home-areas/ --watch",
+    "b": "web-dev-server --open b/src/home-areas/ --watch",
+    "c": "web-dev-server --open c/src/home-areas/ --watch",
+    "d": "web-dev-server --open d/ --watch",
+    "e": "web-dev-server --open e/ --watch",
     "any-with-sidebar": "web-dev-server --open any-with-sidebar/src/with-sidebar-areas/ --watch",
     "not-alphabet": "web-dev-server --open not-alphabet/src/home-areas/ --watch",
     "not-apnews": "web-dev-server --open not-apnews/src/home-areas/ --watch",
