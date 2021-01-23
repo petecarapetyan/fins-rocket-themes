@@ -1,1 +1,1 @@
-# copy of c, for messing with and abandoning
+# copy of argyle, for messing with and abandoning
