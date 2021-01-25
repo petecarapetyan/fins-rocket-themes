@@ -67,13 +67,6 @@ body {
   border: solid 1px white;
 }
 
-@media (min-width: 600px) {
-  #sidenav-button,
-  #sidenav-close {
-    display: none;
-  }
-}
-
 nav {
   display: inline-flex;
   flex-direction: column;
@@ -84,6 +77,11 @@ nav {
 }
 
 @media (min-width: 600px) {
+  #sidenav-button,
+  #sidenav-close,
+  #sidenav-open {
+    display: none;
+  }
   nav {
     -webkit-padding-before: 4.5rem;
     padding-block-start: 4.5rem;
@@ -173,21 +171,12 @@ body main {
   grid-area: foot-main;
 }
 
-@media (min-width: 600px) {
-  #sidenav-button,
-  #sidenav-close,
-  #sidenav-open {
-    display: none;
-  }
-}
-
 aside > a {
   outline-offset: -1px;
   outline: 1px solid transparent;
 }
 
 aside > a:focus {
-  outline-color: hsl(328, 100%, 54%);
   outline-color: white;
   transition: outline-color 0.25s ease;
 }
