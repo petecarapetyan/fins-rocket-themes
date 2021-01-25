@@ -1,1 +1,0 @@
-# copy of j for munging down to it's essence and figuring out why mine won't run like this
