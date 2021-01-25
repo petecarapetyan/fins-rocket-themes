@@ -1,26 +1,28 @@
 body {
   display: grid;
-  grid: [stack] 1fr / -webkit-min-content [stack] 1fr;
-  grid: [stack] 1fr / min-content [stack] 1fr
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
 }
 
 @media (max-width: 540px) {
-    body > aside, body > main {
-      grid-area: stack;
-    }
+  body > aside,
+  body > main {
+    grid-area: only-one-can-show-area;
   }
+}
 
 #sidenav-open {
   --easeOutExpo: cubic-bezier(0.16, 1, 0.3, 1);
   --duration: .6s;
 
-  display: grid;
+  display: none;
   grid-template-columns: [nav] 2fr [escape] 1fr
 }
 
 @media (max-width: 540px) {
 
 #sidenav-open {
+    display: grid;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
