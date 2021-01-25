@@ -13,6 +13,7 @@
     "g": "web-dev-server --open g/ --watch",
     "h": "web-dev-server --open h/ --watch",
     "i": "web-dev-server --open i/ --watch",
+    "l": "web-dev-server --open l/ --watch",
     "any-with-sidebar": "web-dev-server --open any-with-sidebar/src/with-sidebar-areas/ --watch",
     "not-alphabet": "web-dev-server --open not-alphabet/src/home-areas/ --watch",
     "not-apnews": "web-dev-server --open not-apnews/src/home-areas/ --watch",
