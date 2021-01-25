@@ -4,7 +4,6 @@ body {
   grid-template-rows: 1fr;
 }
 
-
 #sidenav-open {
   --easeOutExpo: cubic-bezier(0.16, 1, 0.3, 1);
   --duration: 0.6s;
@@ -46,6 +45,7 @@ aside > a:focus {
   outline-color: white;
   transition: outline-color 0.25s ease;
 }
+
 nav > h4:not(:first-child) {
   -webkit-margin-before: 2rem;
   margin-block-start: 2rem;
@@ -100,11 +100,29 @@ body main {
   grid-area: foot-main;
 }
 
+@media (prefers-reduced-motion: reduce) {
+  #sidenav-open {
+    --duration: 1ms;
+  }
+}
+
+@media (min-width: 600px) {
+  #sidenav-button,
+  #sidenav-close,
+  #sidenav-open {
+    display: none;
+  }
+  nav {
+    -webkit-padding-before: 4.5rem;
+    padding-block-start: 4.5rem;
+  }
+}
 
 @media (max-width: 600px) {
+
   body > aside,
   body > main {
-    grid-area: only-one-can-show-area;
+    grid-area: sidebar-overlay;
   }
 
   #sidenav-open {
@@ -139,28 +157,7 @@ body main {
     box-shadow: 5px 0 40px hsla(0, 0%, 0%, 0.45);
     font-size: 1.5rem;
   }
-}
 
-@media (prefers-reduced-motion: reduce) {
-  #sidenav-open {
-    --duration: 1ms;
-  }
-}
-
-@media (min-width: 600px) {
-  #sidenav-button,
-  #sidenav-close,
-  #sidenav-open {
-    display: none;
-  }
-  nav {
-    -webkit-padding-before: 4.5rem;
-    padding-block-start: 4.5rem;
-  }
-}
-
-
-@media (max-width: 600px) {
   body main {
     height: 100vh;
     grid-template-columns: 1fr;
