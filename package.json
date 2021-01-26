@@ -19,7 +19,7 @@
     "not-apnews": "web-dev-server --open not-apnews/src/home-areas/ --watch",
     "not-axios": "web-dev-server --open not-axios/src/home-areas/ --watch",
     "not-codesign": "web-dev-server --open not-codesign/src/home-areas/ --watch",
-    "not-five38": "web-dev-server --open not-five38/src/home-areas/ --watch",
+    "not-five38": "web-dev-server --open not-five38/src/grid-demo/ --watch",
     "not-fuelcell": "web-dev-server --open not-fuelcell/src/home-areas/ --watch",
     "not-github": "web-dev-server --open not-github/src/home-areas/ --watch",
     "not-ibm": "web-dev-server --open not-ibm/src/home-areas/ --watch",
