@@ -39,7 +39,7 @@ aside > a:focus {
 
 
 /* this section organizes specific to main grid area */
-body[layout='home'] main {
+body main {
   height: 100vh;
   display: grid;
   grid-gap: 1px;
@@ -104,8 +104,8 @@ body[layout='home'] main {
 
 @media (max-width: 600px) {
   /* this controls the sidebar overlay grid */
-  body[layout='home'] > aside,
-  body[layout='home'] > main {
+  body > aside,
+  body > main {
     grid-area: sidebar-overlay;
   }
   #sidenav-open {
