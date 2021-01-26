@@ -17,7 +17,7 @@
     "not-npr": "web-dev-server --open not-npr/src/home-areas/ --watch",
     "not-nyt": "web-dev-server --open not-nyt/src/home-areas/ --watch",
     "not-optimize": "web-dev-server --open not-optimize/src/home-areas/ --watch",
-    "not-reddit": "web-dev-server --open not-reddit/src/home-areas/ --watch",
+    "not-reddit": "web-dev-server --open not-reddit/src/grid-demo/ --watch",
     "not-rocket": "web-dev-server --open not-rocket/src/home-areas/ --watch",
     "not-slashdot": "web-dev-server --open not-slashdot/src/home-areas/ --watch",
     "not-virgin": "web-dev-server --open not-virgin/src/home-areas/ --watch",
