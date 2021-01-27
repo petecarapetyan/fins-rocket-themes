@@ -41,7 +41,7 @@ footer#main-footer {
   border-top:0px;
 }
 
-body[layout='home'] .ga-content-side {
+body .ga-content-side {
   border-left: solid black;
   padding-left: 20px;
 }

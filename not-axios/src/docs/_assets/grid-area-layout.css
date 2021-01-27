@@ -146,7 +146,8 @@ body main {
   }
   .ga-content-l,
   .ga-content-r,
-  .sidebar-grid-area {
+  .sidebar-grid-area,
+  .content-side {
     display: none;
   }
 }
