@@ -75,10 +75,10 @@
       <div class="ga-content-l"></div>
       <div class="rocket-content content-grid-area">
         {% block main %}
-          <main class="markdown-body">
+          <div class="markdown-body">
             {{ content.html | safe }}
             {% include 'partials/previousNext.njk' %}
-          </main>
+          </div>
         {% endblock main %}
       </div>
       <div class="rocket-content sidebar-grid-area">

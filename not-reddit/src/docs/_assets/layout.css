@@ -335,9 +335,6 @@ main > * {
   fill: #fff;
 }
 
-body[layout='home'] main {
-  padding-top: 50px;
-}
 
 body[layout='home'] .page-title {
   color: var(--primary-color);

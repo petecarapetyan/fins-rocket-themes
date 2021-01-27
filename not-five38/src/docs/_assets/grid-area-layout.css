@@ -40,6 +40,7 @@ aside > a:focus {
 
 /* this section organizes specific to main grid area */
 body main {
+  min-height: 100vh;
   display: grid;
   grid-gap: 1px;
   grid-template-columns: 1fr minmax(350px, 704px) minmax(250px, 300px) 1fr;
@@ -141,6 +142,7 @@ body main {
 
   /* main grid area */
   body main {
+    min-height: 100vh;
     grid-template-columns: 1fr;
     grid-template-rows: 130px 55px 50px minmax(350px, auto) auto;
     grid-template-areas:
