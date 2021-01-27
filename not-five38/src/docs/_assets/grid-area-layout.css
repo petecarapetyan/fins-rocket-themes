@@ -40,11 +40,10 @@ aside > a:focus {
 
 /* this section organizes specific to main grid area */
 body main {
-  height: 100vh;
   display: grid;
   grid-gap: 1px;
   grid-template-columns: 1fr minmax(350px, 704px) minmax(250px, 300px) 1fr;
-  grid-template-rows: 130px 55px 50px minmax(350px, 1fr) auto;
+  grid-template-rows: 130px 55px 50px minmax(350px, auto) auto;
   grid-template-areas:
     "content-l  head2-main    head2-main    content-r"
     "content-l  head3-main    head3-main    content-r"
@@ -142,9 +141,8 @@ body main {
 
   /* main grid area */
   body main {
-    height: 100vh;
     grid-template-columns: 1fr;
-    grid-template-rows: 130px 55px 50px minmax(350px, 1fr) auto;
+    grid-template-rows: 130px 55px 50px minmax(350px, auto) auto;
     grid-template-areas:
       "head2-main"
       "head3-main"
