@@ -9,80 +9,106 @@
   </head>
 
   <body layout="home">
-    <div class="rocket-content header-grid-area">
-      {% block header %}
-        {% include 'partials/header.njk' %}
-      {% endblock header%}
-    </div>
+    <aside id="sidenav-open">
+      {% block sidebarOverlay %}
+            <nav slot="content" id="sidebar-nav">
+              {% include 'partials/logoLink.njk' %}
+              <rocket-navigation>
+                <ul>
+                  {%- for entry in collections.header %}
+                    <li>
+                      <a href="{{ entry.url | url }}" class="
+                        {% if entry.url == page.url %} current {% endif %}
+                        {% if (page.url.search(entry.url) !== -1) and (page.url !== '/') %} active {% endif %}
+                      ">{{ entry.data.eleventyNavigation.key }}</a>
+                    </li>
+                  {%- endfor %}
+                </ul>
+                {% include 'partials/mobile-sidebar-bottom.njk' %}
+              </rocket-navigation>
+            </nav>
+        {% endblock sidebarOverlay %}
 
-    <div class="theme-able ga-head2-main">
-      <p>head2-main</p>
-    </div>
+      <a
+        href="#"
+        id="sidenav-close"
+        title="Close Menu"
+        aria-label="Close Menu"
+        onclick="window.history.back()"
+      ></a>
+    </aside>
 
-    <div class="ga-content-l"></div>
-    <div class="theme-able ga-content-main">
-      <p>Lorem ipsum d</p>
-    </div>
-    <div class="rocket-content content-grid-area">
-      {% block main %}
-          <main class="markdown-body">
-            <img class="page-logo" src="{{ '_assets/logo.svg' | asset | url }}" alt="{{ site.title }} Logo"/>
-            {% if rocketLaunch.homeLayout === 'background' %}
-              <img class="page-background" src="{{ '_assets/home-background.svg' | asset | url }}" role="presentation"/>
-            {% endif %}
-            <h1 class="page-title">{{ title }}</h1>
-            <p class="page-slogan">{{slogan}}</p>
-            <div class="call-to-action-list" role="list">
-              {% for callToAction in callToActionItems %}
-                <a class="call-to-action" href="{{ callToAction.href | url }}" role="listitem">{{ callToAction.text | safe }}</a>
-              {% endfor %}
-            </div>
-            <h2 class="reason-header">{{ reasonHeader }}</h2>
-            <section class="reasons">
-              {% for reason in reasons %}
-                <article>
-                  <h3>{{ reason.header }}</h3>
-                  {{ reason.text | safe }}
-                </article>
-              {% endfor %}
-            </section>
-            {{ content.html | safe }}
-            {% include 'partials/previousNext.njk' %}
-          </main>
-        {% endblock main %}
-    </div>
-    <div class="ga-content-r"></div>
+    <main>
+      <div class="rocket-content header-grid-area">
+        <a
+          href="#sidenav-open"
+          id="sidenav-button"
+          class="hamburger"
+          title="Open Menu"
+          aria-label="Open Menu"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="feather feather-menu"
+          >
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </a>
+        <p>Rocket Header</p>
+      </div>
+      <div class="theme-able ga-head2-main">
+        <p>head2-main</p>
+      </div>
+      <div class="theme-able ga-content-l"></div>
+      <div class="theme-able ga-head3-main">
+        <p>head3-main</p>
+      </div>
+      <div class="rocket-content content-grid-area">
+        <p>Rocket Content</p>
+        <p>
+          Content would be provided by rocket, including mdjs output
+        </p>
+        <p>Optionally, also your own?</p>
+        <p>
+          Deserunt lorem nostrud eiusmod sint nostrud anim labore labore
+          deserunt cupidatat incididunt et dolor nisi dolor.
+        </p>
+      </div>
+      <div class="rocket-content sidebar-grid-area">
+        {% block sidebar %}
+            <nav slot="content" id="sidebar-nav">
+              {% include 'partials/logoLink.njk' %}
+              <rocket-navigation>
+                <ul>
+                  {%- for entry in collections.header %}
+                    <li>
+                      <a href="{{ entry.url | url }}" class="
+                        {% if entry.url == page.url %} current {% endif %}
+                        {% if (page.url.search(entry.url) !== -1) and (page.url !== '/') %} active {% endif %}
+                      ">{{ entry.data.eleventyNavigation.key }}</a>
+                    </li>
+                  {%- endfor %}
+                </ul>
+                {% include 'partials/mobile-sidebar-bottom.njk' %}
+              </rocket-navigation>
+            </nav>
+        {% endblock sidebar %}
+      </div>
+      <div class="theme-able ga-content-r"></div>
 
-    <div class="rocket-content sidebar-grid-area">
-      {% block sidebar %}
-        <rocket-drawer id="sidebar">
-          <nav slot="content" id="sidebar-nav">
-            {% include 'partials/logoLink.njk' %}
-            <rocket-navigation>
-              <ul>
-                {%- for entry in collections.header %}
-                  <li>
-                    <a href="{{ entry.url | url }}" class="
-                      {% if entry.url == page.url %} current {% endif %}
-                      {% if (page.url.search(entry.url) !== -1) and (page.url !== '/') %} active {% endif %}
-                    ">{{ entry.data.eleventyNavigation.key }}</a>
-                  </li>
-                {%- endfor %}
-              </ul>
-              {% include 'partials/mobile-sidebar-bottom.njk' %}
-            </rocket-navigation>
-          </nav>
-        </rocket-drawer>
-      {% endblock sidebar %}
-    </div>
-
-    <div class="theme-able ga-foot-main">
-      {% block footer %}
-        {% include 'partials/footer.njk' %}
-        {% include 'partials/pageJs.njk' %}
-        {% include 'partials/mobileNavigationJs.njk' %}
-      {% endblock footer %}
-    </div>
+      <div class="theme-able ga-foot-main">
+        <p>Footer</p>
+      </div>
+    </main>
   </body>
-
 </html>
