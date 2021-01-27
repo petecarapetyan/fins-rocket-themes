@@ -104,8 +104,8 @@ body main {
 
 @media (max-width: 600px) {
   /* this controls the sidebar overlay grid */
-  body[layout='home'] > aside,
-  body[layout='home'] > main {
+  body > aside,
+  body > main {
     grid-area: sidebar-overlay;
   }
   #sidenav-open {
