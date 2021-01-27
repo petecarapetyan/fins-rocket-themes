@@ -1,7 +1,48 @@
-body[layout='home'] {
+/* organizes the sidebar overlay see also @media queries below especially sidebar-overlay */
+body {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+#sidenav-open {
+  --easeOutExpo: cubic-bezier(0.16, 1, 0.3, 1);
+  --duration: 0.6s;
+
+  display: none;
+  grid-template-columns: [nav] 2fr [escape] 1fr;
+}
+
+#sidenav-button,
+#sidenav-close {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  touch-action: manipulation;
+}
+
+#sidenav-close {
+  border: solid 1px white;
+}
+
+aside > a {
+  outline-offset: -1px;
+  outline: 1px solid transparent;
+}
+
+aside > a:focus {
+  transition: outline-color 0.25s ease;
+}
+
+
+/* this section organizes specific to main grid area */
+body main {
   display: grid;
   grid-gap: 1px;
-  grid-template-columns: 1fr minmax(578px, 640px) 310px 1fr;
+  grid-template-columns: 1fr minmax(340px, 640px) minmax(250px, 310px) 1fr;
   grid-template-rows: 49px minmax(350px, 1fr);
   grid-template-areas:
     "head-main  head-main     head-main     head-main"
@@ -31,20 +72,76 @@ body[layout='home'] {
   grid-area: content-r;
 }
 
-.ga-foot-main {
-  grid-area: foot-main;
+/* media queries below combine different grids and aesthetics */
+@media (prefers-reduced-motion: reduce) {
+  #sidenav-open {
+    --duration: 1ms;
+  }
 }
 
-body[layout='sidebar'] {
-  grid-auto-rows: 0;
-  grid-auto-columns: 0;
-  overflow-x: hidden;
-  display: grid;
-  grid-gap: 1px;
-  grid-template-columns: 1fr 300px minmax(665px, 830px) 1fr;
-  grid-template-rows: 81px minmax(350px,auto) auto;
-  grid-template-areas:
-    "content-l  head-main     head-main     content-r"
-    "content-l  content-side  content-main  content-r"
-    "content-l  foot-main     foot-main     content-r"
+@media (min-width: 600px) {
+  #sidenav-button,
+  #sidenav-close,
+  #sidenav-open {
+    display: none;
+  }
+  nav {
+    -webkit-padding-before: 4.5rem;
+    padding-block-start: 4.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  /* this controls the sidebar overlay grid */
+  body > aside,
+  body > main {
+    grid-area: sidebar-overlay;
+  }
+  #sidenav-open {
+    display: grid;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    max-height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    overflow: hidden auto;
+    -ms-scroll-chaining: none;
+    overscroll-behavior: contain;
+
+    visibility: hidden; /* not keyboard accessible when closed */
+    transform: translateX(-110vw);
+    will-change: transform;
+    transition: transform var(--duration) var(--easeOutExpo),
+      visibility 0s linear var(--duration);
+  }
+  #sidenav-open:target {
+    visibility: visible;
+    transform: translateX(0);
+    transition: transform var(--duration) var(--easeOutExpo);
+  }
+  
+  /* should be over-ridden by proper theme css, but critical enough to put here too */
+  nav {
+    background-color: white;
+    -webkit-border-end: 1px white;
+    border-inline-end: 1px white;
+    box-shadow: 5px 0 40px hsla(0, 0%, 0%, 0.45);
+  }
+
+  /* main grid area */
+  body main {
+    height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px minmax(350px, 1fr) auto;
+    grid-template-areas:
+      "head-main"
+      "content-main"
+      "foot-main";
+  }
+  .ga-content-l,
+  .ga-content-r,
+  .sidebar-grid-area {
+    display: none;
+  }
 }
