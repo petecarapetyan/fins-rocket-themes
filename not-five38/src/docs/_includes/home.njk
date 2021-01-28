@@ -14,9 +14,7 @@
     <aside id="sidenav-open">
       {% block sidebarOverlay %}
         <nav id="sidebar-nav">
-          <a class="logo-link" href="{{ '/' | url }}">
-            <span>{{ site.name }}</span>
-          </a>
+          {% include 'partials/logoLink.njk' %}
           <rocket-navigation>
             <ul>
               {%- for entry in collections.header %}
@@ -68,9 +66,7 @@
       <div class="rocket-content sidebar-grid-area">
       {% block sidebar %}
         <nav id="sidebar-nav">
-          <a class="logo-link" href="{{ '/' | url }}">
-            <span>{{ site.name }}</span>
-          </a>
+          {% include 'partials/logoLink.njk' %}
           <rocket-navigation>
             <ul>
               {%- for entry in collections.header %}
