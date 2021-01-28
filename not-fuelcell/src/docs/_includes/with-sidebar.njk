@@ -44,12 +44,12 @@
           {% include 'partials/header.njk' %}
         {% endblock header%}
       </div>
-      <div class="theme-able ga-head2-main">
-        <p>head2-main</p>
+      <div class="rocket-content ga-head2-main">
+        <p>Advertising Banner Here</p>
       </div>
-      <div class="theme-able ga-content-l"></div>
-      <div class="theme-able ga-head3-main">
-        <p>head3-main</p>
+      <div class="ga-content-l"></div>
+      <div class="rocket-content ga-head3-main">
+        <p>Some Header Here</p>
       </div>
       <div class="rocket-content content-grid-area">
         {% block main %}
@@ -59,7 +59,7 @@
           </div>
         {% endblock main %}
       </div>
-      <div class="rocket-content sidebar-grid-area">
+      <div class="sidebar-grid-area">
         {% block sidebar %}
             <nav slot="content" id="sidebar-nav">
               {% include 'partials/logoLink.njk' %}
@@ -79,10 +79,14 @@
             </nav>
         {% endblock sidebar %}
       </div>
-      <div class="theme-able ga-content-r"></div>
+      <div class="ga-content-r"></div>
 
-      <div class="theme-able ga-foot-main">
-        <p>Footer</p>
+      <div class="ga-foot-main">
+        {% block footer %}
+          {% include 'partials/footer.njk' %}
+          {% include 'partials/pageJs.njk' %}
+          {% include 'partials/mobileNavigationJs.njk' %}
+        {% endblock footer %}
       </div>
     </main>
   </body>
