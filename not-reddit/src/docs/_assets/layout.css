@@ -48,9 +48,6 @@ pre {
 #main-header {
   align-items: center;
   padding: 20px 0;
-  top: 0;
-  position: sticky;
-  z-index: 100;
   background-color: var(--page-background);
 }
 
@@ -58,9 +55,6 @@ body:not([layout='home']) #main-header {
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
 }
 
-body[layout='home'] #main-header {
-  position: relative;
-}
 
 #main-header .content-area {
   display: flex;
@@ -80,7 +74,7 @@ body:not([layout='home']) #main-header a:hover {
   color: var(--primary-color);
 }
 
-#mobile-menu-trigger {
+.mobile-menu-trigger {
   color: inherit;
   border: none;
   width: 20px;
