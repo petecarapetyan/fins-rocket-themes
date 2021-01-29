@@ -10,21 +10,21 @@
 
 <body layout="home">
   <div class="ga-head-l"></div>
-  <div class="rocket-content header-grid-area">
+  <div class="header-grid-area">
     {% block header %}
       {% include 'partials/header.njk' %}
     {% endblock header%}
   </div>
   <div class="ga-head-r"></div>
 
-  <div class="theme-able ga-head-side">
+  <div class="rocket-content ga-head-side">
     <p>Side Header</p>
   </div>
   <div class="ga-head2-l"></div>
-  <div class="theme-able ga-head2-main">
+  <div class="rocket-content ga-head2-main">
     <p>head2-main</p>
   </div>
-  <div class="theme-able ga-head2-side">
+  <div class="rocket-content ga-head2-side">
     <p>head2-side</p>
   </div>
   <div class="ga-head2-r"></div>
@@ -61,29 +61,23 @@
   <div class="ga-content-r"></div>
 
   <div class="rocket-content sidebar-grid-area">
-        <p>sidebar not showing due to layout.css?</p>
         {% block sidebar %}
           <rocket-drawer id="sidebar">
             <nav slot="content" id="sidebar-nav">
               {% include 'partials/logoLink.njk' %}
               <rocket-navigation>
-                <ul>
-                  {%- for entry in collections.header %}
-                    <li>
-                      <a href="{{ entry.url | url }}" class="
-                        {% if entry.url == page.url %} current {% endif %}
-                        {% if (page.url.search(entry.url) !== -1) and (page.url !== '/') %} active {% endif %}
-                      ">{{ entry.data.eleventyNavigation.key }}</a>
-                    </li>
-                  {%- endfor %}
-                </ul>
+                {{ collections[section] | rocketNav | rocketNavToHtml({
+                listItemClass: "menu-item",
+                activeListItemClass: "current",
+                activeKey: eleventyNavigation.key
+            }) | safe }}
                 {% include 'partials/mobile-sidebar-bottom.njk' %}
               </rocket-navigation>
             </nav>
           </rocket-drawer>
         {% endblock sidebar %}
   </div>
-  <div class="theme-able ga-foot-main">
+  <div class="ga-foot-main">
         {% block footer %}
           {% include 'partials/footer.njk' %}
           {% include 'partials/pageJs.njk' %}
