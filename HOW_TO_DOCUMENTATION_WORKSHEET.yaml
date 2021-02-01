@@ -119,6 +119,7 @@ n SECTION INTRO:
   - Rocket as a great sample set for advanced 11ty
   - 20 presized grids to match archetypes we all know
   - When to use straight Rocket w/o these themes? Anytime!
+  - JUST ENOUGH nunjucks, not none
 FAQ:
   - if nunjucks or equivalent is good, why not use it in Rocket-themes?:
     - we do, just in extremely limited way
