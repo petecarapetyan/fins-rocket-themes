@@ -1,0 +1,21 @@
+
+
+.header-grid-area {
+  background: url(/_assets/_static/images/header-grid-area-wallpaper.svg) center center fixed; 
+}
+
+.content-grid-area {
+  background: url(/_assets/_static/images/content-grid-area-wallpaper.svg) center center fixed; 
+}
+
+.ga-content-r {
+  background: url(/_assets/_static/images/ga-content-r-l-wallpaper.svg) center center fixed; 
+}
+
+.ga-content-l {
+  background: url(/_assets/_static/images/ga-content-r-l-wallpaper.svg) center center fixed; 
+}
+
+.ga-foot-main {
+  background: url(/_assets/_static/images/ga-foot-main-wallpaper.svg) center center fixed; 
+}

@@ -1,6 +1,5 @@
 ---
 title: Fins
-layout: home.njk
 ---
 
 # for Rocket

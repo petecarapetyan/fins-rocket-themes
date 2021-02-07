@@ -187,3 +187,35 @@ for those of us who don't have the luxury of "wondering" whether our site is acc
 
 PLAIN IS A FEATURE, NOT A BUG:
   - yada
+
+CONTRACT:
+- designed specifically for the 4 million who:
+  - already work in these stacks on a daily/weekly basis:
+    - git or even more specifically github
+    - npm or spin-offs yarn etc
+    - markdown - basic or advanced
+    - html - basic or advanced
+  - want the power made available by many other current stacks and standards
+  - specifically incentivized through time limits of their jobs not to have to `#learnEverythingNewNow`
+  - those things they are forced to eventually learn should at least conform to wc3 or similar standards if at all possible reasonable
+  - specifically dis-incentivized to learning legacy stacks such as ...
+STARTING FINS NUNJUCKS:
+  - just basically "don't touch" at first
+  - rocket takes care of you here
+  - then when you get comfortable, and have time to understand it
+YOU COULD HAVE CODE OPEN FILES EXPECTING TO BE ALTERED:
+  - code /Users/petecarapetyan/work/df/rocket-themes/fins/src/docs/_assets/webmanifest.json
+SHOULD I ENUMERATE LAUNCH FILES IGNORED?:
+  - such as _data or
+WEBAPPWRITER redux:
+  First, let me demonstrate how easy it is to get lost in one little piece of the puzzle of what we are doing here.
+
+  This web-thing that you and I work on. Is it a web-site? web-app? Even just those two are becoming the same, but there is so much more. For some of us it is the visual or web-design. Or for others it's all about functionality.
+
+  So many ways to focus on the job we need to get done today - and miss the bigger thing that we are doing. What is this bigger thing that we are working on? Is it an experience? Is it an exchange? Is it our identity? Is it ...
+
+  Whatever this bigger whole is, this site attempts to address that as an objective. In industry this kind of thinking has been called a performance spec - a description of what you want a vendor to produce, not the nuts and bolts of how the vendor should produce it.
+
+  Great design shops such as Ideo serve such a function - to help a company identify what they are trying to design, rather than just jumping in and executing it.
+
+  So let's look at that.
