@@ -8,12 +8,10 @@
     </div>
 
     <div class="ga-content-l"></div>
-    <div class="rocket-content sidebar-grid-area">
+    <div class="rocket-content content-grid-area">
       {% block sidebar %}
         {% include 'partials/_layoutSidebar/sidebar.njk' %}
       {% endblock sidebar %}
-    </div>
-    <div class="rocket-content content-grid-area">
       {% block content %}
         {% include 'partials/_layoutSidebar/content.njk' %}
       {% endblock content %}
@@ -21,7 +19,7 @@
     <div class="ga-content-r"></div>
 
     <div class="ga-foot-main">
-      <P>LAYOUT SIDEBAR</P>
+      <P>LAYOUT INDEX</P>
       {% block footer %}
         {% include 'partials/footer.njk' %}
       {% endblock footer %}

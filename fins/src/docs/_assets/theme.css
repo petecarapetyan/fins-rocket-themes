@@ -1,5 +1,8 @@
 .header-grid-area {
-  background-color: grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 30px;
 }
 .sidebar-grid-area {
   background-color: salmon;
