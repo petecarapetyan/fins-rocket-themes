@@ -5,7 +5,7 @@
   min-height: 30px;
 }
 .sidebar-grid-area {
-  background-color: salmon;
+  margin-left: 1em;
 }
 .content-grid-area {
   background-color: white;

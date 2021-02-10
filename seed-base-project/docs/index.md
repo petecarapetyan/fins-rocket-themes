@@ -1,5 +1,6 @@
 ---
 title: Fins
+layout: layout-home
 ---
 
 # for Rocket
