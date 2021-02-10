@@ -46,8 +46,8 @@ body[layout='layout-sidebar'] {
   grid-area: foot-main;
 }
 
-@media (max-width: 1024 px) {
-  body[layout='layout-home'], body[layout='layout-index']  {
+@media (max-width: 1024px) {
+  body[layout='layout-home'], body[layout='layout-sidebar'], body[layout='layout-index']  {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: 56px minmax(350px, 1fr) auto;
