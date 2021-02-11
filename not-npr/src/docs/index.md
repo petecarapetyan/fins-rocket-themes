@@ -1,6 +1,6 @@
 ---
 title: not-npr
-layout: home.njk
+layout: layout-home
 slogan: A rocket theme inspired by npr
 callToActionItems:
   - text: Follow Guides
