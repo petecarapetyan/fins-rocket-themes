@@ -1,6 +1,6 @@
 ---
 title: not-github
-layout: home.njk
+layout: layout-home
 slogan: A rocket theme inspired by github
 callToActionItems:
   - text: Follow Guides
