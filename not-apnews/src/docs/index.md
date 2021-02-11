@@ -1,6 +1,6 @@
 ---
 title: not-apnews
-layout: home.njk
+layout: layout-home
 slogan: A rocket theme inspired by apnews
 callToActionItems:
   - text: Follow Guides

@@ -1,6 +1,6 @@
 ---
 title: Not Axios
-layout: layout-sidebar
+layout: layout-home
 ---
 
 # This is NOT Axios.com

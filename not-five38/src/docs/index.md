@@ -1,6 +1,6 @@
 ---
 title: not-five38
-layout: home.njk
+layout: layout-home
 slogan: A rocket theme designed to vaguely appear as 538
 callToActionItems:
   - text: Follow Guides
