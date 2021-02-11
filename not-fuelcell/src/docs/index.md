@@ -1,6 +1,6 @@
 ---
 title: not-fuelcell
-layout: home.njk
+layout: layout-home
 slogan: A rocket theme inspired by fuelcell
 callToActionItems:
   - text: Follow Guides
