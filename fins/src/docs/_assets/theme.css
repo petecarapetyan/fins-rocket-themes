@@ -5,8 +5,9 @@
   min-height: 30px;
 }
 .sidebar-grid-area {
-  margin-left: 1em;
+  margin-left: 1em; /* placeholder - not really needed */
 }
+
 .content-grid-area {
   background-color: white;
 }
