@@ -1,6 +1,6 @@
 ---
 title: not-slashdot
-layout: home.njk
+layout: layout-home.njk
 slogan: A rocket theme inspired by slashdot
 callToActionItems:
   - text: Follow Guides
