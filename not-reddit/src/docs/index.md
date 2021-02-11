@@ -1,6 +1,6 @@
 ---
 title: not-reddit
-layout: home.njk
+layout: layout-home
 slogan: A rocket theme inspired by reddit
 callToActionItems:
   - text: Follow Guides
