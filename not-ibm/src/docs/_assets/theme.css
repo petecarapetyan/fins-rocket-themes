@@ -1,3 +1,68 @@
+
+
+.story-panel-margins {
+  height: 100%;
+  margin: 0 15px 0;
+  display: grid;
+}
+
+.front-stories {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 20px;
+}
+
+.front-story {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.black-back{
+  background-color: black;
+}
+.grey-back{
+  background-color: grey;
+}
+.sales-banner-panel {
+  background: black;
+  height: 450px;
+}
+
+.sales-banner-margins {
+  margin: 0 15px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.sales-banner {
+  width: 70%;
+  overflow: word;
+  display: grid;
+  grid-template-rows: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sales-button {
+  width: fit-content;
+  height: 30px;
+}
+
+.sales-pic {
+  background: black url(/_merged_assets/_static/images/fire.jpg);
+  background-size: cover;
+  height: 450px;
+}
+
+.story-panel {
+  background: white;
+  height: 450px;
+  margin: 30px 0 0;
+}
+
+.page-width {
+  max-width: 1600px;
+}
 .header-grid-area {
   display: flex;
   justify-content: space-between;
