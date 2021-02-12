@@ -1,6 +1,6 @@
 ---
 title: not-alphabet
-layout: home.njk
+layout: layout-home
 slogan: A rocket theme inspired by alphabet
 callToActionItems:
   - text: Follow Guides

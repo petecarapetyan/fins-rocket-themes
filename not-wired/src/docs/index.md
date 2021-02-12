@@ -1,6 +1,6 @@
 ---
 title: not-wired
-layout: home.njk
+layout: layout-home
 slogan: A rocket theme inspired by wired
 callToActionItems:
   - text: Follow Guides

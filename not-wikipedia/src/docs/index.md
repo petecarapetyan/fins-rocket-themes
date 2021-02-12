@@ -1,6 +1,6 @@
 ---
 title: not-wikipedia
-layout: home.njk
+layout: layout-home
 slogan: A rocket theme inspired by wikipedia
 callToActionItems:
   - text: Follow Guides

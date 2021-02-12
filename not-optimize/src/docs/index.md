@@ -1,6 +1,6 @@
 ---
 title: not-optimize
-layout: home.njk
+layout: layout-home
 slogan: A rocket theme inspired by optimize
 callToActionItems:
   - text: Follow Guides

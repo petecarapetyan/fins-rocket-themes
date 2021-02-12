@@ -1,6 +1,6 @@
 ---
 title: OMG
-layout: home.njk
+layout: layout-home
 slogan: OMG is the best ever in the history of the whole world
 callToActionItems:
   - text: Follow Guides

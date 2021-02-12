@@ -1,6 +1,6 @@
 ---
 title: not-nyt
-layout: home.njk
+layout: layout-home
 slogan: A rocket theme inspired by nyt
 callToActionItems:
   - text: Follow Guides

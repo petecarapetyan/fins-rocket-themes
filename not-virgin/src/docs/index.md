@@ -1,6 +1,6 @@
 ---
 title: not-virgin
-layout: home.njk
+layout: layout-home
 slogan: A rocket theme inspired by virgin
 callToActionItems:
   - text: Follow Guides

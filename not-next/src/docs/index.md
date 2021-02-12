@@ -1,6 +1,6 @@
 ---
 title: not-next
-layout: home.njk
+layout: layout-home
 slogan: A rocket theme inspired by next
 callToActionItems:
   - text: Follow Guides

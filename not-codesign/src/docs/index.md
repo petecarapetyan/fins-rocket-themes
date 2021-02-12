@@ -1,6 +1,6 @@
 ---
 title: not-codesign
-layout: home.njk
+layout: layout-home
 slogan: A rocket theme inspired by codesign
 callToActionItems:
   - text: Follow Guides
