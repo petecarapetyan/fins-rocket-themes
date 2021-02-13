@@ -70,6 +70,7 @@ body[layout='layout-home'], body[layout='layout-sidebar'], body[layout='layout-i
 }
 
 
+
 @media (max-width: 1024px) {
   body[layout='layout-home'], body[layout='layout-sidebar'], body[layout='layout-index']  {
     display: grid;
