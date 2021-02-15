@@ -2,17 +2,17 @@ module.exports = function () {
   return {
     dir: 'ltr',
     lang: 'en',
-    name: 'not-five38',
-    description: 'not-five38 is a prelimary starter theme for rocket',
+    name: 'Home',
+    description: 'webAppWriter intro blurb here',
     socialLinks: [
       {
         name: 'GitHub',
-        url: 'https://github.com/petecarapetyan/jeren',
+        url: 'https://github.com/petecarapetyan/webappwriter',
       },
     ],
-    gitSiteUrl: 'https://github.com/petecarapetyan/jeren',
+    gitSiteUrl: 'https://github.com/petecarapetyan/webappwriter',
     gitBranch: 'main',
-    helpUrl: 'https://github.com/petecarapetyan/jeren/issues',
+    helpUrl: 'https://github.com/petecarapetyan/webappwriter/issues',
     logoAlt: 'Rocket Logo',
     iconColorMaskIcon: '#3f93ce',
     iconColorMsapplicationTileColor: '#1d3557',

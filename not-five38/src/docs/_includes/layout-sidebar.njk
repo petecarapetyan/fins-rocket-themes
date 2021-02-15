@@ -1,19 +1,19 @@
 {% extends 'layout-default.njk' %}
 
 {% block themeBody %}
-    <div class="rocket-content ga-head2-main">
-      <p>head2-main</p>
+    <div class="banner rocket-content ga-head2-main">
+      <p>Some kind of ad banner goes here, someday</p>
     </div>
 
-    <div class="rocket-content ga-head3-main">
-      <p>head3-main</p>
+    <div class="ga-head3-main">
+      <div class="logo-text">webAppWriter</div>
     </div>
 
-    <div class="header-grid-area">
-      {% block header %}
-        {% include 'partials/header.njk' %}
-      {% endblock header%}
-    </div>
+    <header id="main-header" class="header-grid-area">
+        {% block header %}
+          {% include 'partials/header.njk' %}
+        {% endblock header%}
+    </header>
 
     <div class="ga-content-l"></div>
     <div class="content-grid-area">

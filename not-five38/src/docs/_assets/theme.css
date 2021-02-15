@@ -1,15 +1,29 @@
-.header-grid-area {
+.logo-text {
+  font-family: 'Odibee Sans', cursive;
+  font-size: 36px;
+  border-bottom: solid 5px black;
+  margin: 0px 5px;
+  padding-bottom: 5px;
+}
+
+#main-header.header-grid-area {
   display: flex;
   justify-content: space-between;
   align-items: center;
   min-height: 30px;
+  margin: 0px 5px;
+  font-family: 'Source Sans Pro', sans-serif;
+
 }
 .sidebar-grid-area {
   margin-left: 1em; /* placeholder - not really needed */
 }
 
+
 .content-grid-area {
   background-color: white;
+  border-right: solid 1px gray;
+  padding: 0px 5px;
 }
 
 .rocket-content {
@@ -19,7 +33,11 @@
   border: solid black 3px;
   border-radius: 3px;
   font-size: 16px;
-  padding: 5px;
+}
+
+.banner {
+  margin: 10px 10%;
+  border: solid grey;
 }
 
 .theme-able {
@@ -69,4 +87,5 @@ h4,
 h5,
 h6 {
   margin: 0 0 5px 0;
+  font-family: 'Source Sans Pro', sans-serif;
 }
