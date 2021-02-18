@@ -1,34 +1,27 @@
-#right-panel {
-  background: white url(/_merged_assets/_static/images/yulia-matvienko-FR5RL5kI5T8-unsplash_.jpg);
-  background-size: cover;
-}
-.content-grid-area {
-  background-color: white;
-}
-
-.ga-content-main {
-  display: grid;
-  align-content: center;
-  justify-content: center;
+.logo-text {
+  font-family: 'Odibee Sans', cursive;
+  font-size: 36px;
+  border-bottom: solid 5px black;
+  margin: 0px 5px;
+  padding-bottom: 5px;
 }
 
-.header-grid-area {
+#main-header.header-grid-area {
   display: flex;
   justify-content: space-between;
   align-items: center;
   min-height: 30px;
+  margin: 0px 5px;
+  font-family: 'Source Sans Pro', sans-serif;
 }
+
 .sidebar-grid-area {
   margin-left: 1em; /* placeholder - not really needed */
-}
-.ga-content-main {
-  display: grid;
-  align-content: center;
-  justify-content: center;
 }
 
 .content-grid-area {
   background-color: white;
+  padding: 0px 5px;
 }
 
 .rocket-content {
@@ -38,7 +31,11 @@
   border: solid black 3px;
   border-radius: 3px;
   font-size: 16px;
-  padding: 5px;
+}
+
+.banner {
+  margin: 10px 10%;
+  border: solid grey;
 }
 
 .theme-able {
@@ -88,4 +85,5 @@ h4,
 h5,
 h6 {
   margin: 0 0 5px 0;
+  font-family: 'Source Sans Pro', sans-serif;
 }
