@@ -53,7 +53,7 @@ body[layout='sidebar'] {
     grid-template-columns: auto;
     grid-template-rows: 56px minmax(350px, 1fr) auto;
     grid-template-areas:
-      "head-main"
+      "head2-main"
       "content-main"
       "foot-main";
     /* next 4 lines prevents stray grid items from being written WTF???????? */
