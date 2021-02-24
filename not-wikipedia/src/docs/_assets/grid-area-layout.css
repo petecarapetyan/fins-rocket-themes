@@ -41,8 +41,8 @@ body[layout='layout-home'], body[layout='layout-sidebar'], body[layout='layout-i
     grid-template-columns: auto;
     grid-template-rows: 56px minmax(350px, 1fr) auto;
     grid-template-areas:
-      "head-main"
-      "content-main"
+      "head2-main"
+      "content2-main"
       "foot-main";
     /* next 4 lines prevents stray grid items from being written WTF???????? */
     grid-auto-rows: 0; 
