@@ -45,3 +45,24 @@ body[layout='layout-home'], body[layout='layout-sidebar'], body[layout='layout-i
 .ga-foot-main {
   grid-area: foot-main;
 }
+
+
+@media (max-width: 1024px) {
+  body[layout='layout-home'], body[layout='layout-sidebar'], body[layout='layout-index']  {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 81px minmax(350px, auto) auto;
+    grid-template-areas:
+      "head-main"
+      "content-main"
+      "foot-main";
+  }
+  .ga-content-l,
+  .ga-content-r,
+  .ga-head-l,
+  .ga-head-r,
+  .ga-head2-main,
+  .ga-head3-main {
+    display: none;
+  }
+}
