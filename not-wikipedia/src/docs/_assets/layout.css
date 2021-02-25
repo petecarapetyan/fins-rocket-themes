@@ -389,7 +389,6 @@ li.current > ul > li.anchor {
     top: 70px;
     overflow-y: auto;
     scroll-behavior: smooth;
-    min-width: 270px;
     z-index: 10;
     margin-right: 50px;
   }
