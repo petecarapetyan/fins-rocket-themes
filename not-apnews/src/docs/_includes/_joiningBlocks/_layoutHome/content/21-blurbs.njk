@@ -1,0 +1,10 @@
+<h2 class="blurb-header">{{ blurbHeader }}</h2>
+
+<section class="blurbs">
+  {% for blurb in blurbs %}
+    <article>
+      <h3>{{ blurb.header }}</h3>
+      {{ blurb.text | safe }}
+    </article>
+  {% endfor %}
+</section>

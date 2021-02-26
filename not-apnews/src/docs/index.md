@@ -3,14 +3,14 @@ title: not-apnews
 layout: layout-home
 slogan: A rocket theme inspired by apnews
 callToActionItems:
-  - text: Follow Guides
+  - text: First
     href: /guides/
-  - text: Browse Docs
+  - text: Second
     href: /docs/
-reasonHeader: Rocket reasons
-reasons:
-  - header: Small
-    text: No overblown tools or frontend frameworks, add JavaScript and/or Web Components only on pages where needed.
+blurbHeader: Stories, otherwise known as Blurbs
+blurbs:
+  - header: Smallish
+    text: Few overblown tools or frontend frameworks, add JavaScript and/or Web Components only on pages where needed.
   - header: Pre-Rendered
     text: Statically generated content means less javascript to ship and process.
   - header: Zero Configuration
