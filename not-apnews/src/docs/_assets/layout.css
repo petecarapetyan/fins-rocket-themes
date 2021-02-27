@@ -613,6 +613,10 @@ body[layout^='layout-home'] .blurb-header {
   margin-top: 60px;
 }
 
+body[layout^='layout-home'] .author {
+  font-size: 8px;
+}
+
 body[layout^='layout-home'] .blurbs {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
