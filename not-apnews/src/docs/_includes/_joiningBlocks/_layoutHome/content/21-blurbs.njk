@@ -6,7 +6,7 @@
       <h3>{{ blurb.header }}</h3>
       <div>{{ blurb.text | safe }}</div>
       <div class=author> by {{ blurb.author | safe}}</div>
-      <img class="page-logo" src="{{ '/_assets/_static/images/eirik-skarstein-unsplash.jpg' | asset | url }}" alt="{{ site.title }} Logo"/>
+      <img src="{{ '/_assets/_static/images/eirik-skarstein-unsplash.jpg' | asset | url }}" alt="{{ site.title }} Logo"/>
       <a class=more href="{{ blurb.more}}">more</a>
     </article>
   {% endfor %}
