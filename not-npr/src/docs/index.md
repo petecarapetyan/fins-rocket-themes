@@ -1,6 +1,6 @@
 ---
-title: not-npr
-slogan: A rocket theme inspired by npr
+title: appWriter
+slogan: a lorem-ipsum site (for the moment)
 ---
 
 This is a lorem-ipsum site. All content is fluff, here to give the theme layout something to display.
