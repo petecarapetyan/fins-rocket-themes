@@ -1,6 +1,5 @@
 body[layout='layout-home'], body[layout='layout-sidebar'], body[layout='layout-index']  {
   display: grid;
-  grid-gap: 1px;
   grid-template-columns: 1fr minmax(692px, 950px) minmax(250px, auto) 1fr;
   grid-template-rows: 103px 50px minmax(350px, auto) auto;
   grid-template-areas:
@@ -14,7 +13,7 @@ body[layout='layout-home'], body[layout='layout-sidebar'], body[layout='layout-i
   grid-area: head-l;
 }
 
-.header-grid-area {
+.ga-head-main {
   grid-area: head-main;
 }
 
@@ -30,7 +29,7 @@ body[layout='layout-home'], body[layout='layout-sidebar'], body[layout='layout-i
   grid-area: head2-l;
 }
 
-.ga-head2-main {
+.header-grid-area {
   grid-area: head2-main;
 }
 

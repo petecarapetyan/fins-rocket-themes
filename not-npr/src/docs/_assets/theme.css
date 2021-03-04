@@ -1,0 +1,22 @@
+.ga-head-main {
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Coda', cursive;
+  font-size: 60px;
+}
+
+#main-header.header-grid-area {
+  background-color: cadetblue;
+  margin: 0px;
+}
+
+.color-band {
+  background-color: cadetblue;
+  position: sticky;
+  top: 0px;
+}
+
+.side-top {
+  background-color: coral;
+}
