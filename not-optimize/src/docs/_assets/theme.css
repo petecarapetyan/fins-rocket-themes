@@ -7,7 +7,7 @@
 .ga-content2-r,
 .ga-content2-main,
 .ga-content2-l {
-  background-color: blue;
+  background-color:midnightblue;
   color: whitesmoke;
 }
 
@@ -25,5 +25,27 @@
 .ga-foot-l {
   background-color: var(--footer-background, rgba(0, 0, 0, 0.1));
 }
+
+
+.ga-content2-main,
+.ga-content3-main {
+  display: grid;
+  text-align: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 24px;
+  padding: 5px;
+}
+
+.exortation {
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.attribution {
+  font-size: 16px;
+  font-weight: 400;
+}
+
 
 
