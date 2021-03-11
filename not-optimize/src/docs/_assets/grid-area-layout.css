@@ -10,17 +10,26 @@ body[layout='layout-home'] {
     "content2-l   content2-main   content2-r"
     "content3-l   content3-main   content3-r"
     "content4-l   content4-main   content4-r"
-    "foot-l       foot-main       foot-r"
+    "foot-l       foot-main       foot-r";
 }
 
 .ga-head-l {
   grid-area: head-l;
 }
+
 .ga-head-main {
   grid-area: head-main;
+  display: grid;
+  grid-template-columns: 1fr minmax(692px, 950px) 1fr;
+  grid-template-areas:  "head-l      head-main-content       head-r";
 }
+
 .ga-head-r {
   grid-area: head-r;
+}
+
+.ga-head-main-content {
+  grid-area: head-main-content;
 }
 
 .ga-content-l {
