@@ -1,20 +1,22 @@
 body[layout='layout-home'] {
+  grid-auto-columns: 0;
   display: grid;
-  grid-gap: 1px;
+  width: 100vw;
   grid-template-columns: 1fr minmax(692px, 950px) 1fr;
-  grid-template-rows: repeat(4, minmax(350px, auto)) auto;
+  grid-template-rows: 675px minmax(650px, auto) minmax(450px, auto) minmax(750px, auto) minmax(95px, auto) auto;
   grid-template-areas:
-    "head-l       head-main       head-r"
+    "head-main      head-main       head-main"
     "content-l    content-main    content-r"
     "content2-l   content2-main   content2-r"
     "content3-l   content3-main   content3-r"
+    "content4-l   content4-main   content4-r"
     "foot-l       foot-main       foot-r"
 }
 
 .ga-head-l {
   grid-area: head-l;
 }
-.header-grid-area {
+.ga-head-main {
   grid-area: head-main;
 }
 .ga-head-r {
@@ -54,6 +56,16 @@ body[layout='layout-home'] {
   grid-area: content3-r;
 }
 
+.ga-content4-l {
+  grid-area: content4-l;
+}
+.header-grid-area {
+  grid-area: content4-main;
+}
+.ga-content4-r {
+  grid-area: content4-r;
+}
+
 .ga-foot-l {
   grid-area: foot-l;
 }
@@ -68,7 +80,6 @@ body[layout='layout-sidebar'], body[layout='layout-index'] {
   grid-auto-columns: 0;
   overflow-x: hidden;
   display: grid;
-  grid-gap: 1px;
   grid-template-columns: 1fr 300px minmax(665px, 830px) 1fr;
   grid-template-rows: 81px minmax(350px,auto) auto;
   grid-template-areas:

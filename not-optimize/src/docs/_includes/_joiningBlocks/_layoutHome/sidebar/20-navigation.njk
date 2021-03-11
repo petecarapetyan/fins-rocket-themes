@@ -1,0 +1,15 @@
+<rocket-navigation>
+  <ul>
+    <li> soemthing from pete </li>
+    {%- for entry in collections.header %}
+      <li>
+        <a href="{{ entry.url | url }}" class="
+          {% if entry.url == page.url %} current {% endif %}
+          {% if (page.url.search(entry.url) !== -1) and (page.url !== '/') %} active {% endif %}
+        ">{{ entry.data.eleventyNavigation.key }}</a>
+      </li>
+    {%- endfor %}
+    <li> soemthing else from pete </li>
+  </ul>
+  {% include 'partials/mobile-sidebar-bottom.njk' %}
+</rocket-navigation>

@@ -1,0 +1,29 @@
+.ga-head-main {
+  background-image: url(/_assets/_static/images/vlad-rudkov-unsplash.jpg);
+  background-size: center;
+  width: 100%;
+}
+
+.ga-content2-r,
+.ga-content2-main,
+.ga-content2-l {
+  background-color: blue;
+  color: whitesmoke;
+}
+
+.ga-content4-r,
+.header-grid-area,
+.ga-content4-l {
+  background-color: darkslategrey;
+  color: whitesmoke;
+}
+
+.ga-content3-r,
+.ga-content3-main,
+.ga-content3-l,
+.ga-foot-r,
+.ga-foot-l {
+  background-color: var(--footer-background, rgba(0, 0, 0, 0.1));
+}
+
+
