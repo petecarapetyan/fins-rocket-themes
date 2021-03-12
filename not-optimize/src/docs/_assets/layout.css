@@ -78,7 +78,6 @@ hr {
   align-items: center;
   padding: 20px 0;
   top: 0;
-  position: sticky;
   z-index: 100;
   box-shadow: none;
 }
