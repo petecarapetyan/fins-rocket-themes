@@ -40,6 +40,8 @@ body[layout='layout-home'] {
 }
 .content-grid-area {
   grid-area: content-main;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 .ga-content-r {
   grid-area: content-r;

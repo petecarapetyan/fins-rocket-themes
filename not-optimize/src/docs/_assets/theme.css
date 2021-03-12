@@ -45,6 +45,13 @@
   padding: 5px;
 }
 
+.lorem-blurb {
+  display: grid;
+  text-align: center;
+  align-items: center;
+  padding: 15px;
+}
+
 .exortation {
   font-size: 32px;
   font-weight: 400;
