@@ -3,6 +3,14 @@
     "name": "Lorem Ipsum",
     "children": [
       {
+        "text": "dataFundamentals",
+        "href": "https://dataFundamentals.com"
+      },
+      {
+        "text": "AppWriter",
+        "href": "https://appwriter.com"
+      },
+      {
         "text": "Walktown",
         "href": "https://walktown.net"
       },
@@ -32,16 +40,8 @@
         "href": "https://github.com/modernweb-dev/rocket"
       },
       {
-        "text": "AppWriter",
-        "href": "https://appwriter.com"
-      },
-      {
         "text": "WebAppWriter",
         "href": "https://webappwritercom"
-      },
-      {
-        "text": "dataFundamentals",
-        "href": "https://dataFundamentals.com"
       },
       {
         "text": "Betterology Corp",
@@ -59,6 +59,10 @@
       {
         "text": "My Twitter",
         "href": "https://twitter.com/appwritercom"
+      },
+      {
+        "text": "SMOSLT.com",
+        "href": "http://smoslt.com"
       }
     ]
   }
