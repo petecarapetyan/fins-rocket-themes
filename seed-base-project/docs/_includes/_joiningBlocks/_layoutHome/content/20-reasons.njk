@@ -1,0 +1,10 @@
+<h2 class="reason-header">{{ reasonHeader }}</h2>
+
+<section class="reasons">
+  {% for teaser in teasers %}
+    <article>
+      <h3>{{ teaser.title }}</h3>
+      {{ teaser.text | safe }}
+    </article>
+  {% endfor %}
+</section>
