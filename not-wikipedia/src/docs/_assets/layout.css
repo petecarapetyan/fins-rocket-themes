@@ -43,59 +43,6 @@ pre {
   overflow: hidden;
 }
 
-.light-dark-switch {
-  /* disabled for now */
-  display: none !important;
-}
-
-.light-dark-switch::part(button) {
-  height: 20px;
-  width: 40px;
-}
-
-.light-dark-switch::part(thumb) {
-  right: 20px;
-  border: solid 1px #4d4d4d;
-  border-radius: 50%;
-  width: calc(50% - 2px);
-  height: calc(100% - 2px);
-  background-color: white;
-}
-
-.light-dark-switch[checked]::part(thumb) {
-  right: 0;
-}
-
-.light-dark-switch::part(track) {
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-  background-color: #4d4d4d;
-}
-
-.light-dark-switch[checked]::part(track)::before {
-  content: '🌞';
-  position: absolute;
-  left: 2px;
-  top: 4px;
-  line-height: 14px;
-}
-
-.light-dark-switch::part(track)::before {
-  content: '🌛';
-  position: absolute;
-  left: 22px;
-  top: 4px;
-  line-height: 14px;
-}
-
-.light-dark-switch {
-  margin-right: 50px;
-
-  --generic-switch-focus: 0 0 2px 3px #e63a46;
-}
-
 hr {
   border: none;
   height: 1px;
@@ -597,7 +544,7 @@ body[layout^='layout-home'] .page-logo {
 }
 
 body[layout^='layout-home'] .page-title,
-body[layout^='layout-home'] .reason-header,
+body[layout^='layout-home'] .teaser-title,
 body[layout^='layout-home'] .page-slogan {
   text-align: center;
   border-bottom: none;
@@ -608,11 +555,11 @@ body[layout^='layout-home'] .page-slogan {
   font-size: 18px;
 }
 
-body[layout^='layout-home'] .reason-header {
+body[layout^='layout-home'] .teaser-title {
   margin-top: 60px;
 }
 
-body[layout^='layout-home'] .reasons {
+body[layout^='layout-home'] .teasers {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   column-gap: 100px;

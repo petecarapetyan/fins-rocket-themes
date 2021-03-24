@@ -543,7 +543,7 @@ body[layout^='layout-home'] .page-logo {
 }
 
 body[layout^='layout-home'] .page-title,
-body[layout^='layout-home'] .reason-header,
+body[layout^='layout-home'] .teaser-title,
 body[layout^='layout-home'] .page-slogan {
   text-align: center;
   border-bottom: none;
