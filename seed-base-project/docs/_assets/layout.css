@@ -598,7 +598,7 @@ body[layout^='layout-home'] .page-logo {
 }
 
 body[layout^='layout-home'] .page-title,
-body[layout^='layout-home'] .reason-header,
+body[layout^='layout-home'] .teaser-title,
 body[layout^='layout-home'] .page-slogan {
   text-align: center;
   border-bottom: none;
@@ -609,11 +609,11 @@ body[layout^='layout-home'] .page-slogan {
   font-size: 18px;
 }
 
-body[layout^='layout-home'] .reason-header {
+body[layout^='layout-home'] .teaser-title {
   margin-top: 60px;
 }
 
-body[layout^='layout-home'] .reasons {
+body[layout^='layout-home'] .teasers {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   column-gap: 100px;

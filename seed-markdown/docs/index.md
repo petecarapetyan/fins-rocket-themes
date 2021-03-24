@@ -24,7 +24,7 @@ callToActionItems:
       src="/_merged_assets/_static/images/bulksplash-intricateexplorer-nSk4ko0uUjA.jpg"
       alt="bulksplash-intricateexplorer-nSk4ko0uUjA.jpg" />
 
-teasertitle: deserunt ipsum exercitation officia
+teaserTitle: deserunt ipsum exercitation officia
 feature:
   title: id esse et
   text: >-
