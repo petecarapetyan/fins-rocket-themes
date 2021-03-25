@@ -1,6 +1,5 @@
 body[layout='layout-home'], body[layout='layout-sidebar'], body[layout='layout-index']   {
   display: grid;
-  grid-gap: 1px;
   grid-template-columns: 1fr minmax(692px, 1060px) 300px 1fr;
   grid-template-rows: 97px minmax(200px, auto) 45px minmax(350px, auto) auto;
   grid-template-areas:
