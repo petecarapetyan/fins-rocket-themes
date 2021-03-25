@@ -1,0 +1,18 @@
+#main-header.header-grid-area {
+  background-color:lightgray;
+  color: blue;
+  margin: 0;
+}
+
+.ga-head-l, .ga-head-r {
+  background-color:lightgray;
+}
+
+.ga-head2-main {
+  background:linen;
+}
+
+.banner {
+  margin: 10px;
+  height: 90%;
+}
