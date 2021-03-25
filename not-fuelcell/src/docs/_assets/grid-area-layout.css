@@ -1,7 +1,6 @@
 body[layout='layout-sidebar'], body[layout='layout-index'], body[layout='layout-home'] {
   min-height: 100vh;
   display: grid;
-  grid-gap: 1px;
   grid-template-columns: 1fr minmax(350px, 950px) minmax(250px, 300px) 1fr;
   grid-template-rows: 100px 320px 140px minmax(350px, 1fr) auto;
   grid-template-areas:
