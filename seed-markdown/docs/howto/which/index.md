@@ -27,6 +27,8 @@ Sometimes I get confused when customizing themes. These are some of the question
 - Which **template blocks** have to be included somewhere?
 - Which **CSS files** do I try not to over-ride? Why?
 - Which customizations are **hard to remember** after I do them?
+- Which template **graphs get unweildy** to keep in the brain?
+- Which **two basic page layouts**?
 
 When 11ty builds a rocket (or any) site, it builds from content like this page.
 
