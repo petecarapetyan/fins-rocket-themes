@@ -1,0 +1,13 @@
+#main-header.header-grid-area {
+  background-color:teal;
+  margin:0;
+}
+#main-header a {
+  color:white;
+}
+.ga-head2-main {
+  background-color: #004d5d;
+}
+.ga-head3-main {
+  background-color: #7d7d6d;
+}
