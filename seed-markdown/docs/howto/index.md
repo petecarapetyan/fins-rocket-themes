@@ -1,9 +1,9 @@
 # Theming HowTo
 
-Rocket/Fins themes such as this one are designed to be customized by their consumers.
+Rocket/Fins themes are intended for customization!
 
-The process of customization can be very easy - after all it's just HTML and CSS at it's core!
+The process of customization can be very easy, for an HTML/CSS developer - even if the templating is an added bit of complexity.
 
-But it can also be the source of some un-necessary confusion, if you haven't contextualized the process of how it all works in your own brain. This section is designed to make that process a bit easier.
+But customization can also be the source of some un-necessary confusion, if you haven't contextualized this process of how it all works in your own brain.
 
-Because I go off and do other things than develop rocket themes, I sometimes have to remind myself of the basic working parts when I've been away for a while. This section is made to speed up that process.
+Because I go off and do other things than develop rocket themes, I sometimes have to remind myself of the basic working parts when I've been away for a while. _**This section is made to speed up that process.**_
