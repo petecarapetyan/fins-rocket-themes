@@ -1,0 +1,46 @@
+.ga-content-l,
+.ga-content-main,
+.ga-content-r {
+  background-color: white;
+}
+.centered {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+.ga-content2-l,
+.ga-content2-main,
+.ga-content2-r {
+  background-color:skyblue;
+}
+
+.ga-content3-l,
+body[layout^='layout-home'] main.markdown-body,
+.ga-content3-r {
+  background-color:peachpuff;
+  margin: 0px;
+}
+.content-grid-area {
+  padding: 0px;
+}
+.ga-content4-l,
+.ga-content4-main,
+.ga-content4-r {
+  background-color:rebeccapurple;
+  color:white;
+}
+.ga-content5-l,
+.ga-content5-main,
+.ga-content5-r {
+  background-color: peru;
+}
+.ga-content6-l,
+.ga-content6-main,
+.ga-content6-r {
+  background-color: salmon;
+}
+
+
+
