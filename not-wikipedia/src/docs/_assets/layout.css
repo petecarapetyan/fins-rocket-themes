@@ -43,6 +43,11 @@ pre {
   overflow: hidden;
 }
 
+.light-dark-switch {
+  /* disabled for now */
+  display: none !important;
+}
+
 hr {
   border: none;
   height: 1px;
