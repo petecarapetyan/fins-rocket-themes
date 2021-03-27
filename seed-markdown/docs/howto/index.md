@@ -1,6 +1,6 @@
 # Theming HowTo
 
-Rocket/Fins themes are intended for customization!
+Fins (this set of Rocket Themes) are _**designed to be customized!**_
 
 The process of customization can be very easy, for an HTML/CSS developer - even if the templating is an added bit of complexity.
 

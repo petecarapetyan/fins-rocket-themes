@@ -21,22 +21,22 @@
       <h1>TOP STORIES</h1></div>
   <div class="ga-content-r"></div>
 
-    <div class="content-grid-area">
-      {% block content %}
-        {% include 'partials/_layoutHome/content.njk' %}
-      {% endblock content %}
-    </div>
-    <div class="sidebar-grid-area">
-      {% block sidebar %}
-        {% include 'partials/_layoutHome/sidebar.njk' %}
-      {% endblock sidebar %}
-    </div>
-  
-    <div class="ga-foot-main">
-      {% block footer %}
-        {% include 'partials/footer.njk' %}
-      {% endblock footer %}
-    </div>
+  <div class="content-grid-area">
+    {% block content %}
+      {% include 'partials/_layoutHome/content.njk' %}
+    {% endblock content %}
+  </div>
+  <div class="sidebar-grid-area">
+    {% block sidebar %}
+      {% include 'partials/_layoutHome/sidebar.njk' %}
+    {% endblock sidebar %}
+  </div>
 
-    {% include 'partials/bottom.njk' %}
+  <div class="ga-foot-main">
+    {% block footer %}
+      {% include 'partials/footer.njk' %}
+    {% endblock footer %}
+  </div>
+
+  {% include 'partials/bottom.njk' %}
 {% endblock themeBody %}
