@@ -7,35 +7,23 @@
     {% endblock header%}
   </header>
 
-  <div class="ga-content-main">
-    <p>
-      <img src="{{ '_assets/_static/images/khara-woods-OGV99Jhhvro-unsplash_.jpg' | asset | url }}" role="presentation"/>
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore,
-      sed.
-    </p>
-  </div>
-
-  <div id="right-panel" class="ga-content2-side">
-  </div>
-
-  <div class="ga-foot-main">
-    <p>Footer</p>
-  </div>
-
-
-  <div class="sidebar-grid-area">
-    {% block sidebar %}
-      {% include 'partials/_layoutSidebar/sidebar.njk' %}
-    {% endblock sidebar %}
-  </div>
   <div class="content-grid-area">
     {% block content %}
       {% include 'partials/_layoutSidebar/content.njk' %}
     {% endblock content %}
   </div>
 
+  <div class="sidebar-grid-area">
+    {% block sidebar %}
+      {% include 'partials/_layoutSidebar/sidebar.njk' %}
+    {% endblock sidebar %}
+  </div>
+  
+  <div class="ga-foot-main">
+    {% block footer %}
+      {% include 'partials/footer.njk' %}
+    {% endblock footer %}
+  </div>
 
   {% include 'partials/bottom.njk' %}
 {% endblock themeBody %}

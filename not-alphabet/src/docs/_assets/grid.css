@@ -9,7 +9,6 @@ body[layout='layout-home'] {
     "foot-main     foot-main"
 }
 
-body[layout="layout-home"] .content-grid-area,
 body[layout="layout-home"] .sidebar-grid-area {
   display: none;
 }
