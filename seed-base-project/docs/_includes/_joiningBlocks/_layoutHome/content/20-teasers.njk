@@ -1,10 +1,12 @@
 <section class="teasers">
   {% for teaser in teasers %}
-    <article>
+    <article class="teaser-blurb">
       <a href="{{teaser.href}}">
-      <h3>{{ teaser.title }}</h3>
-      {{ teaser.img | safe }}
-      <div>{{ teaser.text | safe }}</div>
+        <h3 class="teaser-title">{{ teaser.title }}</h3>
+        <div class="teaser-content">
+          <div class="teaser-thumb">{{ teaser.img | safe }}</div>
+          <div class="teaser-text">{{ teaser.text | safe }}<div>
+        <div>
       </a>
     </article>
   {% endfor %}

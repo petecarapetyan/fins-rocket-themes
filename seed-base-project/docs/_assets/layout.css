@@ -105,6 +105,7 @@ body[layout^='layout-home'] #main-header {
   transition: color 0.3s ease-in-out;
   font-weight: bold;
   order: 2;
+  text-transform: capitalize;
 }
 
 #main-header a:hover {
@@ -266,7 +267,7 @@ rocket-navigation > ul > li > a {
   color: var(--primary-color);
   font-weight: bold;
   font-size: 18px;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 rocket-navigation > ul > li > ul a {
@@ -540,31 +541,6 @@ body[layout^='layout-home'] .page-title {
   color: var(--primary-color);
   font-size: 32px;
 }
-
-body[layout^='layout-home'] .page-logo {
-  display: block;
-  margin: 0 auto;
-  width: 35vw;
-  max-width: 250px;
-  color: var(--primary-color);
-}
-
-body[layout^='layout-home'] .page-title,
-body[layout^='layout-home'] .teaser-title,
-body[layout^='layout-home'] .page-slogan {
-  text-align: center;
-  border-bottom: none;
-  color: var(--text-color);
-}
-
-body[layout^='layout-home'] .page-slogan {
-  font-size: 18px;
-}
-
-body[layout^='layout-home'] .teaser-title {
-  margin-top: 60px;
-}
-
 body[layout^='layout-home'] .teasers {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));

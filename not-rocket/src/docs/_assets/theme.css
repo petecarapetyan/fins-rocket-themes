@@ -1,0 +1,28 @@
+body[layout^='layout-home'] .teaser-title {
+  margin-top: 60px;
+}
+
+
+body[layout^='layout-home'] .page-logo {
+  display: block;
+  margin: 0 auto;
+  width: 35vw;
+  max-width: 250px;
+  color: var(--primary-color);
+}
+
+body[layout^='layout-home'] .page-title,
+body[layout^='layout-home'] .teaser-title,
+body[layout^='layout-home'] .page-slogan {
+  text-align: center;
+  border-bottom: none;
+  color: var(--text-color);
+}
+
+body[layout^='layout-home'] .page-slogan {
+  font-size: 18px;
+}
+
+rocket-navigation > ul > li > a {
+  text-transform: uppercase;
+}

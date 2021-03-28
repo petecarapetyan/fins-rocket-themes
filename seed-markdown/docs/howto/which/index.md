@@ -16,6 +16,8 @@ Sometimes I get confused when customizing themes. These are some of the question
 - Which **mobile adaptations** to test and customize?
 - Which pieces can be added in **from other themes**?
 - Which **controversial CSS** is used for rocket/fins?
+- Which **CSS files** do I try not to over-ride? Why?
+- Which CSS files **are maintained by** who?
 - Which **JAMStack & SSG** standards am i following here?
 - Which **browser standard toolsets** am I consuming here?
 - Which **npm/node toolchains** am I consuming here?
@@ -25,7 +27,6 @@ Sometimes I get confused when customizing themes. These are some of the question
 - Which **menu parts** does rocket do, and which do I do?
 - Which **languages/stacks** are mandatory pre-reqs?
 - Which **template blocks** have to be included somewhere?
-- Which **CSS files** do I try not to over-ride? Why?
 - Which customizations are **hard to remember** after I do them?
 - Which template **graphs get unweildy** to keep in the brain?
 - Which **two basic page layouts**?
