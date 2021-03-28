@@ -1,7 +1,7 @@
 body[layout='layout-home'] {
   display: grid;
   grid-template-columns: 1fr minmax(692px, 950px) 1fr;
-  grid-template-rows: 56px repeat(6, minmax(350px, 1fr)) auto;
+  grid-template-rows: 56px repeat(6, minmax(350px, auto)) auto;
   grid-template-areas:
     "head-l       head-main       head-r"
     "content-l    content-main    content-r"
