@@ -2,10 +2,13 @@ body[layout='layout-home'], body[layout='layout-sidebar'], body[layout='layout-i
   min-height: 100vh;
   display: grid;
   grid-template-columns: 1fr minmax(340px, 640px) minmax(250px, 310px) 1fr;
-  grid-template-rows: 49px minmax(350px, 1fr);
+  grid-template-rows: 49px minmax(350px, auto);
   grid-template-areas:
     "head-main  head-main     head-main     head-main"
-    "content-l  content-main  content-side  content-r"
+    "content-l  content-main  content-side  content-r";
+  grid-auto-rows: 0; 
+  grid-auto-columns: 0;
+  overflow-x: hidden;
 }
 
 .ga-head-l {
