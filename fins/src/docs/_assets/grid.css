@@ -3,7 +3,6 @@ body[layout='layout-home'] {
   grid-auto-columns: 0;
   overflow-x: hidden;
   display: grid;
-  grid-gap: 1px;
   grid-template-columns: 1fr minmax(650px, 1130px) 1fr;
   grid-template-rows: 81px minmax(350px, auto) auto;
   grid-template-areas:
@@ -17,7 +16,6 @@ body[layout='layout-sidebar'], body[layout='layout-index'] {
   grid-auto-columns: 0;
   overflow-x: hidden;
   display: grid;
-  grid-gap: 1px;
   grid-template-columns: 1fr minmax(auto, 300px) minmax(665px, 830px) 1fr;
   grid-template-rows: 81px minmax(350px,auto) auto;
   grid-template-areas:

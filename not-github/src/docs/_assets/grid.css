@@ -1,6 +1,5 @@
 body[layout='layout-home'], body[layout='layout-index'] {
   display: grid;
-  grid-gap: 1px;
   grid-template-columns: 1fr 312px minmax(692px, 936px) 1fr;
   grid-template-rows: 62px 300px 50px 50px minmax(350px, 1fr) 100px;
   grid-template-areas:
@@ -49,7 +48,6 @@ body[layout='layout-sidebar'] {
   grid-auto-columns: 0;
   overflow-x: hidden;
   display: grid;
-  grid-gap: 1px;
   grid-template-columns: 1fr 300px minmax(665px, 830px) 1fr;
   grid-template-rows: 81px minmax(350px,auto) 100px;
   grid-template-areas:
