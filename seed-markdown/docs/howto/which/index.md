@@ -21,7 +21,7 @@ Sometimes I get confused when customizing themes. These are some of the question
 - Which **npm/node toolchains** am I consuming here?
 - Which of this should or would go **into rocket** itself?
 - Which **project run sequences** are typical?
-- Which **layouts** run which pages and how segregated?
+- Which **layouts** run which pages, and copypaste vs `extends`?
 - Which **menu parts** does rocket do, and which do I do?
 - Which **languages/stacks** are mandatory pre-reqs?
 - Which **template blocks** have to be included somewhere?
@@ -31,6 +31,7 @@ Sometimes I get confused when customizing themes. These are some of the question
 - Which **two basic page layouts**?
 - Which **shell scripts** may be necessary to write?
 - Which **node/npm skills** might you need to learn?
+
 
 When 11ty builds a rocket (or any) site, it builds from content like this page.
 
