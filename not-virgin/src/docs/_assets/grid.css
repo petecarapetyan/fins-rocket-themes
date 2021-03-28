@@ -1,4 +1,6 @@
-body[layout='layout-home'] {
+body[layout='layout-home'],
+body[layout='layout-sidebar'],
+body[layout='layout-index'] {
   display: grid;
   grid-template-columns: 1fr minmax(300px, 1440px) 1fr;
   grid-template-rows: 65px 65px minmax(350px, 1fr) auto;
@@ -6,7 +8,10 @@ body[layout='layout-home'] {
     "head-main  head-main     head-main"
     "content-l  head2-main    content-r"
     "content-l  content-main  content-r"
-    "content-l  foot-main     content-r"
+    "content-l  foot-main     content-r";
+  grid-auto-rows: 0; 
+  grid-auto-columns: 0;
+  overflow-x: hidden;
 }
 
 .header-grid-area {
@@ -29,19 +34,7 @@ body[layout='layout-home'] {
 
 .ga-foot-main {
   grid-area: foot-main;
-}
-body[layout='layout-sidebar'], body[layout='layout-index'] {
-  grid-auto-rows: 0; 
-  grid-auto-columns: 0;
-  overflow-x: hidden;
-  display: grid;
-  grid-template-columns: 1fr 300px minmax(665px, 830px) 1fr;
-  grid-template-rows: 81px minmax(350px,auto) auto;
-  grid-template-areas:
-    "content-l  head-main     head-main     content-r"
-    "content-l  content-side  content-main  content-r"
-    "content-l  foot-main     foot-main     content-r"
-}
+} 
 
 @media (max-width: 1024px) {
   body[layout='layout-home'], body[layout='layout-sidebar'], body[layout='layout-index']  {
