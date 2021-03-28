@@ -6,7 +6,10 @@ body[layout='layout-home'], body[layout='layout-sidebar'], body[layout='layout-i
     "head-l     head-main     head-side     head-r"
     "head2-l    head2-main    head2-side    head2-r"
     "content-l  content-main  content-side  content-r"
-    "content-l  foot-main     foot-main     content-r"
+    "content-l  foot-main     foot-main     content-r";
+  grid-auto-rows: 0; 
+  grid-auto-columns: 0;
+  overflow-x: hidden;
 }
 
 .ga-head-l {
