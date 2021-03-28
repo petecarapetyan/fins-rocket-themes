@@ -31,6 +31,7 @@ Sometimes I get confused when customizing themes. These are some of the question
 - Which **two basic page layouts**?
 - Which **shell scripts** may be necessary to write?
 - Which **node/npm skills** might you need to learn?
+- Which **hard** or **not obvious** describes the SSG templating?
 
 
 When 11ty builds a rocket (or any) site, it builds from content like this page.
