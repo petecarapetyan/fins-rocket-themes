@@ -74,6 +74,10 @@
   font-size: 20px;
 }
 
+.blank-header {
+  border-bottom: solid 0.5px;
+}
+
 .theme-able p {
   margin: 0 0 5px 0;
 }
