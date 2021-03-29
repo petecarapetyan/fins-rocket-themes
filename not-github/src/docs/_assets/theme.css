@@ -5,3 +5,14 @@
 #main-header a {
   color:white;
 }
+
+
+body[layout^='layout-home'] #main-header {
+  top: 0px;
+  position: sticky;
+}
+
+.sidebar-grid-area {
+  position: sticky;
+  top: 62px;
+}

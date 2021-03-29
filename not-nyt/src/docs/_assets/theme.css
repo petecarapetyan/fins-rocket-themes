@@ -2,3 +2,14 @@
   font-size: 10px;
   font-weight:300;
 }
+
+
+body[layout^='layout-home'] #main-header {
+  top: 0px;
+  position: sticky;
+}
+
+.sidebar-grid-area {
+  position: sticky;
+  top: 33px;
+}

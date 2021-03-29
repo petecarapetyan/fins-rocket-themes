@@ -11,3 +11,14 @@
 .ga-head3-main {
   background-color: #7d7d6d;
 }
+
+
+body[layout^='layout-home'] #main-header {
+  top: 0px;
+  position: sticky;
+}
+
+.sidebar-grid-area {
+  position: sticky;
+  top: 40px;
+}

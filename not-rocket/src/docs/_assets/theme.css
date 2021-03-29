@@ -26,3 +26,14 @@ body[layout^='layout-home'] .page-slogan {
 rocket-navigation > ul > li > a {
   text-transform: uppercase;
 }
+
+
+body[layout^='layout-home'] #main-header {
+  top: 0px;
+  position: sticky;
+}
+
+.sidebar-grid-area {
+  position: sticky;
+  top: 81px;
+}
