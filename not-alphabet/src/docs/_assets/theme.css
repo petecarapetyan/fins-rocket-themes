@@ -1,0 +1,13 @@
+.site-footer {
+  background-color: #e9eaea;
+  background-image: url(/_assets/_static/images/Answering.svg);
+  background-position: 97% 54%;
+  background-position: calc(100% - 30px) 54%;
+  background-position: right 30px 54%;
+  background-size: 75px 18px;
+  background-repeat: no-repeat;
+  min-height: 90px;
+  position: relative;
+  text-align: right;
+  z-index: 9;
+}
