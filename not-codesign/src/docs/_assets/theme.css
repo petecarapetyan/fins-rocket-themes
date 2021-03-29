@@ -1,0 +1,21 @@
+.ga-content3-l,
+.ga-content3-main,
+.ga-content3-r {
+  background-image: url(/_assets/_static/images/laura-adai-h9-5tO_EIeQ-unsplash.jpg);
+  background-size: center;
+  width: 100%;
+  color: whitesmoke;
+}
+
+.ga-content-r,
+.ga-content-main,
+.ga-content-l {
+  background-color:rgb(112, 25, 51);
+  color: whitesmoke;
+}
+
+.ga-content5-l,
+.ga-content5-main,
+.ga-content5-r {
+  background-color:#f9f6f3;
+}

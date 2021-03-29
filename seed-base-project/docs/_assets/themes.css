@@ -66,6 +66,14 @@
   background-size: 200px;
 }
 
+.theme-standin {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
 .theme-able p {
   margin: 0 0 5px 0;
 }
