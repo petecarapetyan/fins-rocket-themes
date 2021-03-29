@@ -19,3 +19,15 @@
 .ga-content5-r {
   background-color:#f9f6f3;
 }
+
+.ga-head-l,
+body[layout^='layout-home'] #main-header,
+.ga-head-r {
+  top: 0px;
+  position: sticky;
+}
+
+.sidebar-grid-area {
+  position: sticky;
+  top: 81px;
+}
