@@ -29,5 +29,5 @@ body[layout^='layout-home'] #main-header,
 
 .sidebar-grid-area {
   position: sticky;
-  top: 81px;
+  top: 56px;
 }

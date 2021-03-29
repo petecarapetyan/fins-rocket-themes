@@ -16,3 +16,14 @@
 .sidebar-grid-area {
   border-top: solid 0.5px gray;
 }
+
+
+body[layout^='layout-home'] #main-header {
+  top: 0px;
+  position: sticky;
+}
+
+.sidebar-grid-area {
+  position: sticky;
+  top: 100px;
+}

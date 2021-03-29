@@ -1,3 +1,16 @@
 .content-grid-area {
   border-right: solid 1px gray;
 }
+
+
+.ga-head-l,
+body[layout^='layout-home'] #main-header,
+.ga-head-r {
+  top: 0px;
+  position: sticky;
+}
+
+.sidebar-grid-area {
+  position: sticky;
+  top: 55px;
+}
