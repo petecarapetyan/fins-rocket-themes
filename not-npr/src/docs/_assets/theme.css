@@ -11,7 +11,9 @@
   margin: 0px;
 }
 
-.color-band {
+body[layout^='layout-home'] #main-header,
+.color-band,
+.ga-head2-side {
   background-color: cadetblue;
   position: sticky;
   top: 0px;
@@ -19,4 +21,9 @@
 
 .side-top {
   background-color: coral;
+}
+
+.sidebar-grid-area {
+  position: sticky;
+  top: 50px;
 }
