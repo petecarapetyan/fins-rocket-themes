@@ -11,3 +11,8 @@
   text-align: right;
   z-index: 9;
 }
+
+body header {
+  top: 0px;
+  position: sticky;
+}
