@@ -2,7 +2,7 @@ module.exports = function () {
   return {
     dir: 'ltr',
     lang: 'en',
-    name: 'appWriter',
+    name: 'opm.org',
     description: 'exploring apps as standards based browser clients',
     socialLinks: [
       {

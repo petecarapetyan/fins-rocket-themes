@@ -2,7 +2,7 @@ module.exports = function () {
   return {
     dir: 'ltr',
     lang: 'en',
-    name: 'Home',
+    name: 'sevensixteen',
     description: 'webAppWriter intro blurb here',
     socialLinks: [
       {
