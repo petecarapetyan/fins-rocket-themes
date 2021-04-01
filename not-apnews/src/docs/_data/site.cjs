@@ -2,7 +2,7 @@ module.exports = function () {
   return {
     dir: 'ltr',
     lang: 'en',
-    name: 'ekDispatch',
+    name: 'EK Dispatch',
     description: 'not-apnews is a prelimary starter theme for rocket',
     socialLinks: [
       {

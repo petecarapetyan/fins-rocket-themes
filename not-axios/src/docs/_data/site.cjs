@@ -2,7 +2,7 @@ module.exports = function () {
   return {
     dir: 'ltr',
     lang: 'en',
-    name: 'ODIUS',
+    name: 'OSIAX',
     description: 'not-axios is a prelimary starter theme for rocket',
     socialLinks: [
       {

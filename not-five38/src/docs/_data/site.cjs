@@ -2,8 +2,8 @@ module.exports = function () {
   return {
     dir: 'ltr',
     lang: 'en',
-    name: 'sevensixteen',
-    description: 'webAppWriter intro blurb here',
+    name: 'sevenSixteen',
+    description: 'not-five38 intro blurb here',
     socialLinks: [
       {
         name: 'GitHub',
