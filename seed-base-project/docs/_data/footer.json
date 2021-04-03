@@ -1,47 +1,63 @@
 [
   {
-    "name": "Lorem Ipsum",
+    "name": "Theme Examples",
     "children": [
       {
-        "text": "dataFundamentals",
-        "href": "https://dataFundamentals.com"
-      },
-      {
-        "text": "AppWriter",
+        "text": "not-npr",
         "href": "https://appwriter.com"
       },
       {
-        "text": "Walktown",
-        "href": "https://walktown.net"
+        "text": "not-ibm",
+        "href": "https://walktownnet.web.app/"
       },
       {
-        "text": "Could Be",
-        "href": "https://couldbe.net"
+        "text": "not-slashdot",
+        "href": "https://mymodelercom.web.app/"
       },
       {
-        "text": "myModeler",
-        "href": "https://myModeler.com"
+        "text": "not-nyt",
+        "href": "https://jukelox-7ec89.web.app/"
       },
       {
-        "text": "WYSINATI",
-        "href": "https://wyisnati.com"
+        "text": "not-axios",
+        "href": "https://jeren-5de92.web.app/"
       },
       {
-        "text": "BTRG",
-        "href": "https://btrg.org"
+        "text": "not-apnews",
+        "href": "https://esuyp-fb794.web.app/"
+      },
+      {
+        "text": "not-wired",
+        "href": "https://replitza.web.app/"
+      },
+      {
+        "text": "not-nyt",
+        "href": "https://jukelox-7ec89.web.app/"
+      },
+      {
+        "text": "not-next",
+        "href": "https://mulerain.web.app/"
+      },
+      {
+        "text": "not-github",
+        "href": "https://mtobwin.web.app"
+      },
+      {
+        "text": "not-fuelcell",
+        "href": "https://betterologist.web.app"
       }
     ]
   },
   {
-    "name": "Substance",
+    "name": "Actual Substance?",
     "children": [
       {
         "text": "Rocket",
-        "href": "https://github.com/modernweb-dev/rocket"
+        "href": "https://rocket.modern-web.dev/"
       },
       {
         "text": "WebAppWriter",
-        "href": "https://webappwritercom"
+        "href": "https://webappwriter.com"
       },
       {
         "text": "Betterology Corp",
@@ -59,10 +75,6 @@
       {
         "text": "My Twitter",
         "href": "https://twitter.com/appwritercom"
-      },
-      {
-        "text": "SMOSLT.com",
-        "href": "http://smoslt.com"
       }
     ]
   }
