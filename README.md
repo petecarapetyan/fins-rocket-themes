@@ -1,43 +1,33 @@
-# Status:
+# Rocket Themes (Fins)
 
-This project is soon to be abandoned and good parts migrated to webappwriter
+This is a set of 18 "themes" for [Rocket SSG](https://rocket.modern-web.dev/)
 
-## Notes Jan 29
+If you're not familiar with [11ty](https://www.11ty.dev/) or SSGs in general, or more specifically the [JAMStack](https://jamstack.org/) trend with all 200+ implementations - the this all might be too foreign, but if you're already plugged into this world, these themes give that world a more of a WordPress-ish theme-like approach some validity.
 
-- works except without drawer woops:
-  - axios:
-    - media query works
-  - five38:
-    - but attempt was made to drop in drawer after
-    - media query fails on overflow sometimes
-    - seems majorly incomplete
-    - drawer not visible some views
-  - fuelcell:
-    - media query shrinks and then fails on area before main appearing
-    - this appeared only recently - worked earlier this week????
-  - reddit:
-    - same as fuel cell - area before main appearing
-- shifted to drawer but not media query:
-  - five38:
-    - inbetween see above
-  - next:
-    - no media queries implemented on grid-area side
-    - rocket drawer only works in `with-sidebar`
-  - npr:
-    - attempted implementation of media query on grid area
-    - grid area overflow not fixed
-    - drawer sorta works but doesn't have background covering page
-  - slashdot:
-    - drawer works perfectly because no layout.css changes
-    - media drawer works perfectly because no layout.css changes
-    - grid-area-layout works perfectly but not fully responsive
-    - sidebar not visible because no layout.css changes
-    - sidebar doesn't go away because:
-      - no layout.css changes and
-      - not in grid-area-layout.css
-  - virgin:
-    - like five38 in that brought in revised layout.css and that breaks:
-      - drawer overlay
-    - no @media in the grid-area-layout.css
-  - wired:
-    - similar to five-38 and virgin in basic problems & status
+## Running Examples of These Themes
+
+Not every detail is finished, but they are all running and visible on the web
+
+[not-alphabet](https://aspieautomator.com)
+[not-apnews](https://esuyp-fb794.web.app/)
+[not-axios](https://jeren-5de92.web.app/)
+[not-codesign](https://wysinati.com/)
+[not-five38](https://webappwriter.com)
+[not-fuelcell](https://betterologist.web.app)
+[not-github](https://mtobwin.web.app)
+[not-ibm](https://walktownnet.web.app/)
+[not-next](https://mulerain.web.app/)
+[not-npr](https://appwriter.com)
+[not-nyt](https://jukelox-7ec89.web.app/)
+[not-optimize](https://couldbe-net.web.app/)
+[not-reddit](https://btrg.org/)
+[not-slashdot](https://mymodelercom.web.app/)
+[not-virgin](https://betterology-com.web.app/)
+[not-wikipedia](https://datafundamentals-com.web.app/)
+[not-wired](https://replitza.web.app/)
+
+## Status:
+
+Everything here is still pretty P.O.C. even if it's pretty nifty compared to what you can do elsewhere.
+
+This project may be moving to [Fins](https://github.com/petecarapetyan/fins)eventually but for now it's here
