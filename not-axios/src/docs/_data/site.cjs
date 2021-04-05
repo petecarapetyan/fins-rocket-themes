@@ -3,7 +3,7 @@ module.exports = function () {
     dir: 'ltr',
     lang: 'en',
     name: 'OSIAX',
-    description: 'not-axios is a prelimary starter theme for rocket',
+    description: 'not-axios is a customizeable theme, for the Rocket SSG',
     socialLinks: [
       {
         name: 'GitHub',

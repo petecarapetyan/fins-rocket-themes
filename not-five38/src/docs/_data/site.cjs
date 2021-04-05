@@ -3,7 +3,7 @@ module.exports = function () {
     dir: 'ltr',
     lang: 'en',
     name: 'sevenSixteen',
-    description: 'not-five38 intro blurb here',
+    description: 'not-five38 is a customizeable theme, for the Rocket SSG',
     socialLinks: [
       {
         name: 'GitHub',

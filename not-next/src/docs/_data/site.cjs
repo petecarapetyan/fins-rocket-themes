@@ -3,7 +3,7 @@ module.exports = function () {
     dir: 'ltr',
     lang: 'en',
     name: 'pickle diamonds',
-    description: 'not-next is a prelimary starter theme for rocket',
+    description: 'not-next is a customizeable theme, for the Rocket SSG',
     socialLinks: [
       {
         name: 'GitHub',

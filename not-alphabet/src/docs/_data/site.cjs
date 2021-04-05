@@ -3,7 +3,7 @@ module.exports = function () {
     dir: 'ltr',
     lang: 'en',
     name: 'odetta',
-    description: 'not-alphabet is a prelimary starter theme for rocket',
+    description: 'not-alphabet is a customizeable theme, for the Rocket SSG',
     socialLinks: [
       {
         name: 'GitHub',

@@ -3,7 +3,7 @@ module.exports = function () {
     dir: 'ltr',
     lang: 'en',
     name: 'W E I R D',
-    description: 'not-wired is a prelimary starter theme for rocket',
+    description: 'not-wired is a customizeable theme, for the Rocket SSG',
     socialLinks: [
       {
         name: 'GitHub',

@@ -3,7 +3,7 @@ module.exports = function () {
     dir: 'ltr',
     lang: 'en',
     name: 'flower',
-    description: 'not-virgin is a prelimary starter theme for rocket',
+    description: 'not-virgin is a customizeable theme, for the Rocket SSG',
     socialLinks: [
       {
         name: 'GitHub',

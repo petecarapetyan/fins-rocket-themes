@@ -3,7 +3,7 @@ module.exports = function () {
     dir: 'ltr',
     lang: 'en',
     name: 'markedup',
-    description: 'not-reddit is a prelimary starter theme for rocket',
+    description: 'not-reddit is a customizeable theme, for the Rocket SSG',
     socialLinks: [
       {
         name: 'GitHub',

@@ -3,7 +3,7 @@ module.exports = function () {
     dir: 'ltr',
     lang: 'en',
     name: 'heatunitworks',
-    description: 'not-fuelcell is a prelimary starter theme for rocket',
+    description: 'not-fuelcell is a customizeable theme, for the Rocket SSG',
     socialLinks: [
       {
         name: 'GitHub',

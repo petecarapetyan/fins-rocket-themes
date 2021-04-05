@@ -3,7 +3,7 @@ module.exports = function () {
     dir: 'ltr',
     lang: 'en',
     name: 'opm.org',
-    description: 'exploring apps as standards based browser clients',
+    description: 'not-npr is a customizeable theme, for the Rocket SSG',
     socialLinks: [
       {
         name: 'GitHub',

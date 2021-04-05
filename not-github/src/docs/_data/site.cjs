@@ -3,7 +3,7 @@ module.exports = function () {
     dir: 'ltr',
     lang: 'en',
     name: 'logcore',
-    description: 'not-github is a prelimary starter theme for rocket',
+    description: 'not-github is a customizeable theme, for the Rocket SSG',
     socialLinks: [
       {
         name: 'GitHub',

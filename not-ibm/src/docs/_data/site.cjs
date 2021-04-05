@@ -3,7 +3,7 @@ module.exports = function () {
     dir: 'ltr',
     lang: 'en',
     name: 'OMG',
-    description: 'OMG is the best ever',
+    description: 'not-ibm is a customizeable theme, for the Rocket SSG',
     socialLinks: [
       {
         name: 'GitHub',

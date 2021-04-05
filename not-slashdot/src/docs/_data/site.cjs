@@ -3,7 +3,7 @@ module.exports = function () {
     dir: 'ltr',
     lang: 'en',
     name: 'chmoddash',
-    description: 'not-slashdot is a prelimary starter theme for rocket',
+    description: 'not-slashdot is a customizeable theme, for the Rocket SSG',
     socialLinks: [
       {
         name: 'GitHub',

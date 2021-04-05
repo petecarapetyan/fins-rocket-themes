@@ -3,7 +3,7 @@ module.exports = function () {
     dir: 'ltr',
     lang: 'en',
     name: 'U K Blurbs',
-    description: 'not-nyt is a prelimary starter theme for rocket',
+    description: 'not-nyt is a customizeable theme, for the Rocket SSG',
     socialLinks: [
       {
         name: 'GitHub',

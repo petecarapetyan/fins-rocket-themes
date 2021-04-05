@@ -3,7 +3,7 @@ module.exports = function () {
     dir: 'ltr',
     lang: 'en',
     name: 'EK Dispatch',
-    description: 'not-apnews is a prelimary starter theme for rocket',
+    description: 'not-apnews is a customizeable theme, for the Rocket SSG',
     socialLinks: [
       {
         name: 'GitHub',
