@@ -7,7 +7,7 @@ module.exports = function () {
     socialLinks: [
       {
         name: 'GitHub',
-        url: 'https://github.com/petecarapetyan/webappwriter',
+        url: 'https://github.com/petecarapetyan/rocket-themes/tree/main/not-five38/src/docs',
       },
     ],
     gitSiteUrl: 'https://github.com/petecarapetyan/webappwriter',
