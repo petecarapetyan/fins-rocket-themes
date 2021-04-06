@@ -7,7 +7,7 @@ module.exports = function () {
     socialLinks: [
       {
         name: 'GitHub',
-        url: 'https://github.com/petecarapetyan/rocket-themes',
+        url: 'https://github.com/petecarapetyan/rocket-themes/tree/main/not-codesign/src/docs',
       },
     ],
     gitSiteUrl: 'https://github.com/petecarapetyan/rocket-themes',
