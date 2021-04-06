@@ -98,12 +98,10 @@ body[layout='layout-home'] {
 .sidebar-grid-area {
   grid-area: content-side;
 }
-body[layout='layout-sidebar'] {
-  grid-auto-rows: 0;
-  grid-auto-columns: 0;
-  overflow-x: hidden;
+body[layout='layout-sidebar'], 
+body[layout='layout-index'] {
   display: grid;
-  grid-template-columns: 1fr minmax(692px, 1140px) 1fr;
+  grid-template-columns: 1fr minmax(350px,auto) minmax(692px, 1140px) 1fr;
   grid-template-rows: 81px minmax(350px,auto) auto;
   grid-template-areas:
     "content-l  head-main     head-main     content-r"
