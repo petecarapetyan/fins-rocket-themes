@@ -63,10 +63,42 @@
 
 #main-header.header-grid-area {
   font-family: 'Nunito', sans-serif;
+  background-color: darkslategray;
+  margin:0px;
 }
 
 #main-header .logo-link {
   font-family: 'Nunito', sans-serif;
+}
+#main-header a {
+  color: white;
+}
+#main-footer {
+  margin-top:0;
+}
+
+body[layout^='layout-home'] .page-logo {
+  display: block;
+  margin: 0 auto;
+  width: 35vw;
+  max-width: 250px;
+  color: var(--primary-color);
+}
+
+body[layout^='layout-home'] .page-title,
+body[layout^='layout-home'] .teaser-title,
+body[layout^='layout-home'] .page-slogan {
+  text-align: center;
+  border-bottom: none;
+  color: var(--text-color);
+}
+
+body[layout^='layout-home'] .page-slogan {
+  font-size: 18px;
+}
+
+body[layout^='layout-home'] .teaser-title {
+  margin-top: 60px;
 }
 
 .logo-text {
