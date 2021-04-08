@@ -1,4 +1,6 @@
-# Theming HowTo
+# HowTo
+
+# How To Theme - an Intro
 
 Fins (this set of Rocket Themes) are _**designed to be customized!**_
 
