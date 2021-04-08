@@ -208,7 +208,7 @@ STARTING FINS NUNJUCKS:
   - rocket takes care of you here
   - then when you get comfortable, and have time to understand it
 YOU COULD HAVE CODE OPEN FILES EXPECTING TO BE ALTERED:
-  - code /Users/petecarapetyan/work/df/rocket-themes/fins/src/docs/_assets/webmanifest.json
+  - code /Users/petecarapetyan/work/df/fins-rocket-themes/fins/src/docs/_assets/webmanifest.json
 SHOULD I ENUMERATE LAUNCH FILES IGNORED?:
   - such as _data or
 WEBAPPWRITER redux:
