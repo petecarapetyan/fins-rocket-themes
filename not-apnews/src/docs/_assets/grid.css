@@ -10,7 +10,9 @@ body[layout='layout-home']  {
     "content-l    foot-main     foot-main     content-r"
 }
 
-body[layout='layout-sidebar'], body[layout='layout-index']   {
+body[layout='layout-sidebar'],
+body[layout='layout-index'],
+body[layout='layout-blog-details']   {
   display: grid;
   grid-template-columns: 1fr minmax(692px, 1060px) 300px 1fr;
   grid-template-rows: 97px auto auto;
@@ -57,7 +59,10 @@ body[layout='layout-sidebar'], body[layout='layout-index']   {
 
 
 @media (max-width: 1024px) {
-  body[layout='layout-home'], body[layout='layout-sidebar'], body[layout='layout-index']  {
+  body[layout='layout-home'],
+   body[layout='layout-sidebar'],
+    body[layout='layout-index'],
+    body[layout='layout-blog-details']  {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: 81px minmax(350px, auto) auto;

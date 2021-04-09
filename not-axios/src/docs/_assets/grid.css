@@ -11,7 +11,9 @@ body[layout='layout-home'] {
     "content-l  foot-main     content-r"
 }
 
-body[layout='layout-sidebar'], body[layout='layout-index'] {
+body[layout='layout-sidebar'],
+body[layout='layout-index'],
+body[layout='layout-blog-details']  {
   display: grid;
 grid-template-columns: 1fr minmax(240px, 373px) minmax(350px, 783px) 1fr;
 grid-template-rows: 81px minmax(350px, auto) auto;
@@ -50,7 +52,10 @@ grid-area: foot-main;
 
 
 @media (max-width: 1024px) {
-  body[layout='layout-home'], body[layout='layout-sidebar'], body[layout='layout-index']  {
+  body[layout='layout-home'],
+  body[layout='layout-sidebar'],
+  body[layout='layout-index'],
+  body[layout='layout-blog-details']   {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: 81px minmax(350px, auto) auto;

@@ -1,4 +1,7 @@
-body[layout='layout-home'], body[layout='layout-sidebar'], body[layout='layout-index']  {
+body[layout='layout-home'],
+body[layout='layout-sidebar'],
+body[layout='layout-index'],
+body[layout='layout-blog-details'] {
   display: grid;
   grid-template-columns: 1fr minmax(692px, 950px) minmax(250px, auto) 1fr;
   grid-template-rows: 103px 50px minmax(350px, auto) auto;
@@ -74,7 +77,10 @@ body[layout='layout-home'], body[layout='layout-sidebar'], body[layout='layout-i
 
 
 @media (max-width: 1024px) {
-  body[layout='layout-home'], body[layout='layout-sidebar'], body[layout='layout-index']  {
+  body[layout='layout-home'],
+  body[layout='layout-sidebar'],
+  body[layout='layout-index'],
+  body[layout='layout-blog-details'] {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: 56px minmax(350px, 1fr) auto;
