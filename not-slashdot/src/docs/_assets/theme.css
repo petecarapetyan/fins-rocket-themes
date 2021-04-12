@@ -1,3 +1,15 @@
+body[layout^='layout-home'] .teasers {
+  display: block;
+}
+
+.teaser-title, 
+article a h3 {
+  text-transform: capitalize;
+  background-color: cadetblue;
+  color: white;
+  width: 100%;
+}
+
 .navOne {
   display: block;
   height: 30px;
