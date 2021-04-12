@@ -32,6 +32,8 @@
 }
 .ga-head2-main {
   background-color: #004d5d;
+  display: flex;
+  justify-content: space-around;
 }
 .ga-head3-main {
   background-color: #7d7d6d;
