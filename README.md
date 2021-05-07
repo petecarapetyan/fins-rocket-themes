@@ -10,7 +10,7 @@ Not every detail is finished, but they are all running and visible on the web
 
 - [not-alphabet Theme](https://aspieautomator.com)
 - [not-apnews Theme](https://esuyp-fb794.web.app/)
-- [not-axios Theme](https://jeren-5de92.web.app/)
+- [not-axios Theme](https://datafundamentals.com)
 - [not-codesign Theme](https://wysinati.com/)
 - [not-five38 Theme](https://webappwriter.com)
 - [not-fuelcell Theme](https://betterology.net/)
@@ -23,7 +23,7 @@ Not every detail is finished, but they are all running and visible on the web
 - [not-reddit Theme](https://btrg.org/)
 - [not-slashdot Theme](https://mymodeler.com)
 - [not-virgin Theme](https://betterology.com)
-- [not-wikipedia Theme](https://datafundamentals.com)
+- [not-wikipedia Theme](https://jeren-5de92.web.app/)
 - [not-wired Theme](https://replitza.web.app/)
 
 ## Status:
