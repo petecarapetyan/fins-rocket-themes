@@ -10,24 +10,22 @@ Not every detail is finished, but they are all running and visible on the web
 
 - [not-alphabet Theme](https://aspieautomator.com)
 - [not-apnews Theme](https://esuyp-fb794.web.app/)
-- [not-axios Theme](https://jeren-5de92.web.app/)
+- [not-axios Theme](https://datafundamentals.com)
 - [not-codesign Theme](https://wysinati.com/)
 - [not-five38 Theme](https://webappwriter.com)
-- [not-fuelcell Theme](https://betterologist.web.app)
+- [not-fuelcell Theme](https://betterology.net)
 - [not-github Theme](https://mtobwin.web.app)
-- [not-ibm Theme](https://walktownnet.web.app/)
+- [not-ibm Theme](https://walktown.net/)
 - [not-next Theme](https://mulerain.web.app/)
 - [not-npr Theme](https://appwriter.com)
 - [not-nyt Theme](https://jukelox-7ec89.web.app/)
-- [not-optimize Theme](https://couldbe-net.web.app/)
+- [not-optimize Theme](https://couldbe.net)
 - [not-reddit Theme](https://btrg.org/)
-- [not-slashdot Theme](https://mymodelercom.web.app/)
-- [not-virgin Theme](https://betterology-com.web.app/)
-- [not-wikipedia Theme](https://datafundamentals-com.web.app/)
+- [not-slashdot Theme](https://mymodeler.com)
+- [not-virgin Theme](https://betterology.com)
+- [not-wikipedia Theme](https://jeren-5de92.web.app/)
 - [not-wired Theme](https://replitza.web.app/)
 
 ## Status:
 
 Everything here is still pretty P.O.C. even if it's pretty nifty compared to what you can do elsewhere.
-
-This project may be moving to [Fins Theme](https://github.com/petecarapetyan/fins)eventually but for now it's here
