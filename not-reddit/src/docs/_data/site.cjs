@@ -2,7 +2,7 @@ module.exports = function () {
   return {
     dir: 'ltr',
     lang: 'en',
-    name: 'markedup',
+    name: 'greenit',
     description: 'not-reddit is a customizeable theme, for the Rocket SSG',
     socialLinks: [
       {
@@ -18,5 +18,7 @@ module.exports = function () {
     iconColorMsapplicationTileColor: '#1d3557',
     iconColorThemeColor: '#1d3557',
     socialMediaImage: '/_assets/social-media-image.jpg',
+    analyticsUA: 'UA-12345678',
+    analyticsGA4: 'G-12345678'
   };
 };
