@@ -2,7 +2,7 @@ module.exports = function () {
   return {
     dir: 'ltr',
     lang: 'en',
-    name: 'markupvolume',
+    name: 'markdownPedia',
     description: 'not-wikipedia is a customizeable theme, for the Rocket SSG',
     socialLinks: [
       {

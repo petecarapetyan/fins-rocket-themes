@@ -1,3 +1,6 @@
+#main-header .logo-link span {
+  font-family: 'Montserrat', sans-serif;
+}
 
 .navOne {
   display: block;
@@ -33,7 +36,7 @@
   justify-content: space-between;
   align-items: center;
   font-family: 'Chango', sans-serif;
-  font-size: 60px;
+  font-size: 50px;
 }
 
 body[layout^='layout-home'] #main-header,
