@@ -14,7 +14,7 @@ There are also much fancier ways of trying out lots of different themes as outli
 
 ## Who should use this theme
 
-These themes are _**only for users who feel comfortable in HTML/CSS/JS**_ as some customization of this theme is expected to be required.
+These themes are _**only for users who feel comfortable in HTML/CSS/JS**_ as some customization, or even completion of this theme is expected to be required.
 
 ## Customization
 
