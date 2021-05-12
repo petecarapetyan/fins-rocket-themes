@@ -20,6 +20,13 @@ These themes are _**only for users who feel comfortable in HTML/CSS/JS**_ as som
 
 Probably start with `_data/site.cjs` but then take a look at all other files - there aren't that many.
 
+## As customized and deployed
+
+If you're looking for this theme as further personalized/customized and deployed on one of my sites:
+
+- [as personalized/customized](https://github.com/petecarapetyan/aspieautomator)
+- [as deployed](https://aspieautomator.com/)
+
 ## For more information
 
 This and other `fins-rocket-themes` are discussed [here](https://webappwriter.com/rocket-themes/) in more detail.
