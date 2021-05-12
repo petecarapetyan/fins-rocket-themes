@@ -1,4 +1,4 @@
-# not-alphabet Rocket Theme
+# not-alphabet Rocket Theme (fins)
 
 This is a theme for a [Rocket](https://rocket.modern-web.dev/) web site, loosely styled after the [Alphabet corporate site](https://abc.xyz/)
 
