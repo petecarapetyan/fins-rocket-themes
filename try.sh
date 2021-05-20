@@ -13,7 +13,7 @@ mkdir ../$1 # makes a sibling rocket project directory from your first arg
 mv ../$1/docs/ ../$1/docx
 mkdir -p ../$1/docs/_assets/_static
 if [ $3 = "seed" ]; then
-  cp -R ./seed-markdown/docs/* ../$1/docs/ # copies some Lorem Ipsum stuff into your project so you'll have data
+  cp -R ./content-seed/docs/* ../$1/docs/ # copies some Lorem Ipsum stuff into your project so you'll have data
   rm -rf ../$1/docx
 elif [ $3 = "keep" ]; then
   cp -R ../$1/docx/_assets/_static/* ../$1/docs/_assets/_static/
@@ -26,9 +26,9 @@ else
   echo "Third argument has to be seed, keep, or empty, NOT: $3"
   exit 2
 fi
-cp -Rf ./seed-base-project/* ../$1 # copies the 3 of the 5 basic starter files into your new rocket project
-cp ./seed-base-project/.eleventyignore ../$1 
-cp ./seed-base-project/.gitignore ../$1
+cp -Rf ./community/* ../$1 # copies the 3 of the 5 basic starter files into your new rocket project
+cp ./community/.eleventyignore ../$1 
+cp ./community/.gitignore ../$1
 cp -Rf ./$2/src/docs ../$1 # copies the theme named by your second argument, into your new project
 cd ../$1 # changes directories to your new project
 npm i
