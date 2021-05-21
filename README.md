@@ -2,7 +2,7 @@
 
 This is a set of 17 "themes" for [Rocket SSG Theme](https://rocket.modern-web.dev/)
 
-If you're not familiar with [11ty Theme](https://www.11ty.dev/) or SSGs in general, or more specifically the [JAMStack Theme](https://jamstack.org/) trend with all 200+ implementations - the this all might be too foreign, but if you're already plugged into this world, these themes give that world a more of a WordPress-ish theme-like approach some validity.
+If you're not familiar with [11ty](https://www.11ty.dev/) or SSGs in general, or more specifically the [JAMStack](https://jamstack.org/) trend with all 200+ implementations - the this all might be too foreign, but if you're already plugged into this world, these themes give that world a more of a WordPress-ish theme-like approach some validity.
 
 ## Where is the Documentation?
 
