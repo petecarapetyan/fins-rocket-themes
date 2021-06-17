@@ -1,12 +1,12 @@
 body[layout='layout-home']  {
   display: grid;
   grid-template-columns: 1fr minmax(692px, 1060px) 300px 1fr;
-  grid-template-rows: 97px minmax(200px, auto) 45px minmax(350px, auto) auto auto;
+  grid-template-rows: 97px minmax(200px, auto) 45px minmax(350px, auto) auto;
   grid-template-areas:
     "head-l       head-main     head-main     head-r"
     "head2-main   head2-main    head2-main    head2-main"
     "content-l    head3-main    head3-main    content-r"
-    "content-l    content-main  content-side  content-r"
+    "content-l    content-main  content-main  content-r"
     "content-l    foot-main     foot-main     content-r"
 }
 
