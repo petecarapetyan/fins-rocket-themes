@@ -14,8 +14,10 @@ body[layout^='layout-home'] #main-header,
   font-family: 'Karla', sans-serif;
 }
 
-#main-header .logo-link {
+#main-header .logo-link,
+.mobile-logo span {
   font-family: 'Gugi', sans-serif;
+  color: var(--primary-color);
 }
 
 .logo-text {

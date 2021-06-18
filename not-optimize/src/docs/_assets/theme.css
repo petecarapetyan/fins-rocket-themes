@@ -67,7 +67,9 @@
   margin:0px;
 }
 
-#main-header .logo-link {
+#main-header .logo-link,
+.mobile-logo span {
+  color: var(--primary-color);
   font-family: 'Nunito', sans-serif;
 }
 #main-header a {

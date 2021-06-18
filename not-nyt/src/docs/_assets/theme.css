@@ -52,7 +52,9 @@ body[layout^='layout-home'] #main-header {
   font-family: 'Quattrocento', serif;
 }
 
-#main-header .logo-link {
+#main-header .logo-link,
+.mobile-logo span {
+  color: var(--primary-color);
   font-family: 'UnifrakturMaguntia', serif;
 }
 

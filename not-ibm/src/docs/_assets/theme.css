@@ -82,7 +82,9 @@ body[layout^='layout-home'] #main-header,
   font-family: 'Arvo', serif;
 }
 
-#main-header .logo-link {
+#main-header .logo-link,
+.mobile-logo span {
+  color: var(--primary-color);
   font-family: 'Lilita One', sans-serif;
 }
 

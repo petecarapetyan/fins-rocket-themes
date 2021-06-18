@@ -62,7 +62,9 @@ body[layout^='layout-home'] #main-header,
   margin: 0px;
 }
 
-#main-header .logo-link {
+#main-header .logo-link,
+.mobile-logo span {
+  color: var(--primary-color);
   font-family: 'Chango', sans-serif;
 }
 

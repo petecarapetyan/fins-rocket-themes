@@ -45,7 +45,9 @@ body[layout^='layout-home'] #main-header {
   font-family: 'Montserrat', sans-serif;
 }
 
-#main-header .logo-link {
+#main-header .logo-link,
+.mobile-logo span {
+  color: var(--primary-color);
   font-family: 'Special Elite', serif;
 }
 

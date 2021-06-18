@@ -37,7 +37,9 @@ body[layout^='layout-home'] #main-header,
   font-family: 'Philosopher', sans-serif;
 }
 
-#main-header .logo-link {
+#main-header .logo-link,
+.mobile-logo span {
+  color: var(--primary-color);
   font-family: 'Train One', sans-serif;
 }
 

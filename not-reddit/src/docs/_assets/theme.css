@@ -21,7 +21,9 @@ body[layout^='layout-home'] #main-header{
   font-family: 'Oswald', sans-serif;
 }
 
-#main-header .logo-link {
+#main-header .logo-link,
+.mobile-logo span {
+  color: var(--primary-color);
   font-family: 'Comfortaa', sans-serif;
   text-transform: none;
 }

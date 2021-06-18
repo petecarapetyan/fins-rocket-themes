@@ -47,7 +47,9 @@ body[layout^='layout-home'] main.markdown-body,
   font-family: 'Noto Sans JP', sans-serif;
 }
 
-#main-header .logo-link {
+#main-header .logo-link,
+.mobile-logo span {
+  color: var(--primary-color);
   font-family: 'Sedgwick Ave', sans-serif;
 }
 

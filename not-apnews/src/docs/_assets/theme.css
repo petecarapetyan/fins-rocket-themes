@@ -30,7 +30,9 @@ body[layout^='layout-home'] #main-header,
   margin: 0;
 }
 
-#main-header .logo-link {
+#main-header .logo-link,
+.mobile-logo span {
+  color: var(--primary-color);
   font-family: 'Audiowide', sans-serif;
 }
 
