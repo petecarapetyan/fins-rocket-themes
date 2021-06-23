@@ -1,4 +1,9 @@
 
+.copyright {
+  display: flex;
+  justify-content: center;
+}
+
 .socials {
   display: flex;
   justify-items: center;
